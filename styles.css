@@ -296,14 +296,14 @@ a:focus-visible {
   table-layout: fixed;
 }
 
-.filings-table colgroup col.col-date     { width: 9%;  min-width: 100px; }
+.filings-table colgroup col.col-date     { width: 10%; min-width: 112px; }
 .filings-table colgroup col.col-accession{ width: 11%; min-width: 118px; }
 .filings-table colgroup col.col-docket   { width: 11%; min-width: 120px; }
 .filings-table colgroup col.col-filer    { width: 13%; min-width: 130px; }
-.filings-table colgroup col.col-filing   { width: 24%; min-width: 200px; }
-.filings-table colgroup col.col-tags     { width: 16%; min-width: 150px; }
-.filings-table colgroup col.col-deadline { width: 9%;  min-width: 100px; }
-.filings-table colgroup col.col-action   { width: 7%;  min-width: 92px; }
+.filings-table colgroup col.col-filing   { width: 22%; min-width: 190px; }
+.filings-table colgroup col.col-tags     { width: 15%; min-width: 145px; }
+.filings-table colgroup col.col-deadline { width: 8%;  min-width: 92px; }
+.filings-table colgroup col.col-action   { width: 10%; min-width: 120px; }
 
 .filings-table thead th {
   position: sticky;
@@ -313,7 +313,7 @@ a:focus-visible {
   font-family: var(--font-body);
   font-size: 0.7rem;
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
   text-align: left;
   padding: 11px 10px;
@@ -409,7 +409,8 @@ a:focus-visible {
 
 /* new pill */
 .new-pill {
-  display: inline-block;
+  display: block;
+  width: fit-content;
   background: var(--amber);
   color: var(--ink);
   font-size: 0.66rem;
@@ -417,7 +418,7 @@ a:focus-visible {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   padding: 2px 7px;
-  margin-left: 6px;
+  margin: 5px 0 0;
   border-radius: 2px;
   vertical-align: middle;
 }
