@@ -259,16 +259,51 @@ a:focus-visible {
   background: #fffaef;
   border: 1px solid var(--paper-edge);
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   position: relative;
 }
-.table-wrap:focus { outline: 2px solid var(--clay); outline-offset: -2px; }
+.table-wrap:focus-visible { outline: 2px solid var(--clay); outline-offset: -2px; }
+
+/* Right-edge gradient hint that there is more content to scroll.
+   Sits on top of the scrollbar gutter; uses subtle alpha so column text
+   underneath stays readable. */
+.table-wrap.has-overflow::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 18px;
+  pointer-events: none;
+  background: linear-gradient(to right, rgba(255,250,239,0), rgba(255,250,239,0.85));
+  transition: opacity 0.18s ease;
+}
+.table-wrap.is-scrolled-end::after { opacity: 0; }
+
+.scroll-hint {
+  display: none;
+  margin: 8px 0 0;
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+  font-style: italic;
+}
+.table-wrap.has-overflow + .scroll-hint { display: block; }
 
 .filings-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.92rem;
-  min-width: 1080px;
+  table-layout: fixed;
 }
+
+.filings-table colgroup col.col-date     { width: 9%;  min-width: 100px; }
+.filings-table colgroup col.col-accession{ width: 11%; min-width: 118px; }
+.filings-table colgroup col.col-docket   { width: 11%; min-width: 120px; }
+.filings-table colgroup col.col-filer    { width: 13%; min-width: 130px; }
+.filings-table colgroup col.col-filing   { width: 24%; min-width: 200px; }
+.filings-table colgroup col.col-tags     { width: 16%; min-width: 150px; }
+.filings-table colgroup col.col-deadline { width: 9%;  min-width: 100px; }
+.filings-table colgroup col.col-action   { width: 7%;  min-width: 92px; }
 
 .filings-table thead th {
   position: sticky;
@@ -276,22 +311,28 @@ a:focus-visible {
   background: var(--ink);
   color: var(--paper);
   font-family: var(--font-body);
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   font-weight: 600;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   text-align: left;
-  padding: 11px 14px;
+  padding: 11px 10px;
   border-bottom: 1px solid var(--ink);
   white-space: nowrap;
 }
+.filings-table thead th:first-child { padding-left: 14px; }
+.filings-table thead th:last-child  { padding-right: 14px; }
 
 .filings-table tbody td {
-  padding: 14px;
+  padding: 13px 10px;
   vertical-align: top;
   border-bottom: 1px solid var(--paper-edge);
   color: var(--ink);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
+.filings-table tbody td:first-child { padding-left: 14px; }
+.filings-table tbody td:last-child  { padding-right: 14px; }
 .filings-table tbody tr:last-child td { border-bottom: none; }
 .filings-table tbody tr:nth-child(even) td { background: rgba(227,215,184,0.18); }
 
@@ -301,14 +342,14 @@ a:focus-visible {
 }
 
 .filings-table .col-date,
-.filings-table .col-accession,
-.filings-table .col-docket,
 .filings-table .col-deadline { white-space: nowrap; }
 
 .filings-table .mono {
   font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   letter-spacing: -0.01em;
+  word-break: break-all;
+  overflow-wrap: anywhere;
 }
 
 .filings-table .filer {
@@ -319,7 +360,6 @@ a:focus-visible {
 .filings-table .filing-text {
   color: var(--ink);
   line-height: 1.45;
-  max-width: 44ch;
 }
 
 /* tag chips inside table */
@@ -327,7 +367,6 @@ a:focus-visible {
   display: flex;
   flex-wrap: wrap;
   gap: 4px 5px;
-  max-width: 28ch;
 }
 .tag {
   display: inline-block;
@@ -349,7 +388,7 @@ a:focus-visible {
 
 /* deadline cell */
 .deadline {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   gap: 2px;
   font-size: 0.85rem;
@@ -435,6 +474,90 @@ a:focus-visible {
   font-size: 0.85rem;
   font-style: normal;
   color: var(--ink-faint);
+}
+
+/* ==================== TABLE → CARDS ON NARROW SCREENS ==================== */
+/* Below 720px the table layout becomes unreadable even with horizontal scroll.
+   Reflow each row as a stacked card with field labels. */
+@media (max-width: 720px) {
+  .table-wrap {
+    border: none;
+    background: transparent;
+    overflow: visible;
+  }
+  .table-wrap.has-overflow::after { display: none; }
+  .scroll-hint { display: none !important; }
+
+  .filings-table,
+  .filings-table thead,
+  .filings-table tbody,
+  .filings-table tr,
+  .filings-table th,
+  .filings-table td,
+  .filings-table colgroup,
+  .filings-table col {
+    display: block;
+    width: auto !important;
+    min-width: 0 !important;
+  }
+
+  .filings-table thead { display: none; }
+
+  .filings-table tbody tr {
+    background: #fffaef;
+    border: 1px solid var(--paper-edge);
+    border-left: 3px solid var(--clay-deep);
+    margin: 0 0 12px;
+    padding: 14px 16px;
+  }
+  .filings-table tbody tr:nth-child(even) td { background: transparent; }
+  .filings-table tbody tr.is-new {
+    background: var(--amber-soft);
+    border-color: var(--amber-edge);
+    border-left-color: var(--amber);
+  }
+  .filings-table tbody tr.is-new td {
+    background: transparent !important;
+    box-shadow: none;
+  }
+
+  .filings-table tbody td {
+    border: none;
+    padding: 4px 0;
+    display: grid;
+    grid-template-columns: 96px 1fr;
+    gap: 12px;
+    align-items: baseline;
+  }
+  .filings-table tbody td::before {
+    content: attr(data-label);
+    font-size: 0.66rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    padding-top: 2px;
+  }
+  .filings-table tbody td.col-filing { grid-template-columns: 1fr; }
+  .filings-table tbody td.col-filing::before { display: block; margin-bottom: 4px; }
+  .filings-table tbody td.col-tags   { grid-template-columns: 1fr; }
+  .filings-table tbody td.col-tags::before { display: block; margin-bottom: 4px; }
+
+  .filings-table .filing-text { max-width: none; }
+
+  .empty-row {
+    border: 1px solid var(--paper-edge) !important;
+    border-left: 3px solid var(--clay-deep) !important;
+    background: #fffaef;
+    padding: 24px 16px;
+  }
+  .empty-row td {
+    display: block !important;
+    padding: 0 !important;
+    grid-template-columns: none !important;
+    text-align: center;
+  }
+  .empty-row td::before { content: none !important; }
 }
 
 /* ==================== COVERAGE ==================== */

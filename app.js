@@ -138,14 +138,14 @@
     var newPill = row.is_new ? '<span class="new-pill">New</span>' : '';
     return ''
       + '<tr' + cls + '>'
-      +   '<td class="col-date">' + escapeHtml(formatDate(row.filed_date)) + newPill + '</td>'
-      +   '<td class="col-accession mono">' + escapeHtml(row.accession || "—") + '</td>'
-      +   '<td class="col-docket mono">' + escapeHtml(row.docket || "—") + '</td>'
-      +   '<td class="col-filer filer">' + escapeHtml(row.filer || "—") + '</td>'
-      +   '<td class="col-filing"><div class="filing-text">' + escapeHtml(row.filing || "—") + '</div></td>'
-      +   '<td class="col-tags">' + renderTagStack(row.counties, row.keywords) + '</td>'
-      +   '<td class="col-deadline">' + renderDeadlineCell(row) + '</td>'
-      +   '<td class="col-action">' + renderActionLink(row) + '</td>'
+      +   '<td class="col-date" data-label="Filed">' + escapeHtml(formatDate(row.filed_date)) + newPill + '</td>'
+      +   '<td class="col-accession mono" data-label="Accession">' + escapeHtml(row.accession || "—") + '</td>'
+      +   '<td class="col-docket mono" data-label="Docket">' + escapeHtml(row.docket || "—") + '</td>'
+      +   '<td class="col-filer filer" data-label="Filer">' + escapeHtml(row.filer || "—") + '</td>'
+      +   '<td class="col-filing" data-label="Filing / request"><div class="filing-text">' + escapeHtml(row.filing || "—") + '</div></td>'
+      +   '<td class="col-tags" data-label="Counties / keywords">' + renderTagStack(row.counties, row.keywords) + '</td>'
+      +   '<td class="col-deadline" data-label="Deadline">' + renderDeadlineCell(row) + '</td>'
+      +   '<td class="col-action" data-label="Action">' + renderActionLink(row) + '</td>'
       + '</tr>';
   }
 
@@ -203,6 +203,29 @@
     }
   }
 
+  /* ---------- overflow detection ----------
+     Adds .has-overflow when the table is wider than its wrapper, and toggles
+     .is-scrolled-end when the user has scrolled to the right edge. Drives a
+     subtle right-edge gradient + a screen-reader-friendly scroll hint. */
+  function watchOverflow() {
+    var wrap = document.getElementById("table-wrap");
+    if (!wrap) return;
+    function check() {
+      var overflowing = wrap.scrollWidth - wrap.clientWidth > 1;
+      wrap.classList.toggle("has-overflow", overflowing);
+      var atEnd = wrap.scrollLeft + wrap.clientWidth >= wrap.scrollWidth - 1;
+      wrap.classList.toggle("is-scrolled-end", overflowing && atEnd);
+    }
+    check();
+    wrap.addEventListener("scroll", check, { passive: true });
+    if (typeof ResizeObserver !== "undefined") {
+      var ro = new ResizeObserver(check);
+      ro.observe(wrap);
+    } else {
+      window.addEventListener("resize", check);
+    }
+  }
+
   function init() {
     var data = (typeof window !== "undefined" && window.FERC_DATA) ? window.FERC_DATA : null;
     if (!data) {
@@ -210,6 +233,7 @@
     }
     renderStatus(data);
     renderTable(data.rows);
+    watchOverflow();
   }
 
   if (document.readyState === "loading") {

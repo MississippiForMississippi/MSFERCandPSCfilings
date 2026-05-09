@@ -84,8 +84,18 @@
       <p class="section-head__sub">Newest first. Rows shaded amber are new since the previous check.</p>
     </div>
 
-    <div class="table-wrap" role="region" aria-label="FERC filings table" tabindex="0">
+    <div class="table-wrap" id="table-wrap" role="region" aria-label="FERC filings table, horizontally scrollable" tabindex="0">
       <table class="filings-table">
+        <colgroup>
+          <col class="col-date" />
+          <col class="col-accession" />
+          <col class="col-docket" />
+          <col class="col-filer" />
+          <col class="col-filing" />
+          <col class="col-tags" />
+          <col class="col-deadline" />
+          <col class="col-action" />
+        </colgroup>
         <thead>
           <tr>
             <th scope="col" class="col-date">Filed date</th>
@@ -103,6 +113,7 @@
         </tbody>
       </table>
     </div>
+    <p class="scroll-hint" aria-hidden="true">Scroll the table sideways to see deadlines and action links.</p>
   </section>
 
   <!-- ========== SEARCH COVERAGE ========== -->
