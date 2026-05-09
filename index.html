@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="color-scheme" content="light only" />
+<meta name="referrer" content="no-referrer" />
+<title>East Mississippi FERC Filing Monitor</title>
+<meta name="description" content="A public-records watchdog report of FERC eLibrary filings affecting east-central Mississippi counties." />
+<link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%235e3a1f'/><path d='M7 22 L16 8 L25 22 Z' fill='none' stroke='%23f3ead6' stroke-width='2.4' stroke-linejoin='round'/><circle cx='16' cy='17' r='2.2' fill='%23f3ead6'/></svg>" />
+<link rel="preconnect" href="https://api.fontshare.com" />
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=fraunces@400,500,600,700&f[]=general-sans@400,500,600&f[]=jetbrains-mono@400,500&display=swap" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="page">
+
+  <!-- ========== HEADER ========== -->
+  <header class="masthead" role="banner">
+    <div class="masthead__top">
+      <a href="#" class="brand" aria-label="East Mississippi FERC Filing Monitor — home">
+        <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+          <rect x="1" y="1" width="46" height="46" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M8 36 L24 12 L40 36 Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+          <line x1="24" y1="12" x2="24" y2="36" stroke="currentColor" stroke-width="1.2" stroke-dasharray="2 2"/>
+          <circle cx="24" cy="28" r="2.6" fill="currentColor"/>
+        </svg>
+        <span class="brand__wordmark">
+          <span class="brand__line1">East Mississippi</span>
+          <span class="brand__line2">FERC Filing Monitor</span>
+        </span>
+      </a>
+      <div class="masthead__meta" aria-label="Report metadata">
+        <span class="meta__label">Public records watch</span>
+        <span class="meta__sep" aria-hidden="true">·</span>
+        <span class="meta__label">Source: FERC eLibrary</span>
+      </div>
+    </div>
+
+    <p class="masthead__lede">
+      A grassroots monitoring report of new filings at the Federal Energy Regulatory Commission
+      that may affect Lauderdale, Kemper, Clarke, Jasper, Scott, Newton, Leake, Attala,
+      Neshoba, and Choctaw counties. Updated automatically when the scheduled check runs.
+    </p>
+  </header>
+
+  <!-- ========== STATUS CARDS ========== -->
+  <section class="status" aria-label="Run status">
+    <article class="card" id="card-checked">
+      <span class="card__label">Last checked</span>
+      <span class="card__value" id="val-checked">—</span>
+      <span class="card__sub" id="val-checked-sub">Awaiting first run</span>
+    </article>
+    <article class="card" id="card-new">
+      <span class="card__label">New filings</span>
+      <span class="card__value" id="val-new">0</span>
+      <span class="card__sub">Since last check</span>
+    </article>
+    <article class="card" id="card-counties">
+      <span class="card__label">Counties matched</span>
+      <span class="card__value" id="val-counties">0</span>
+      <span class="card__sub" id="val-counties-sub">of 10 watched</span>
+    </article>
+    <article class="card" id="card-deadlines">
+      <span class="card__label">Deadlines found</span>
+      <span class="card__value" id="val-deadlines">0</span>
+      <span class="card__sub">Comment / intervention</span>
+    </article>
+  </section>
+
+  <!-- ========== NEW BANNER ========== -->
+  <div class="new-banner" id="new-banner" role="status" hidden>
+    <span class="new-banner__dot" aria-hidden="true"></span>
+    <span class="new-banner__text">
+      <strong id="new-banner-count">0 new filings</strong> since the last check.
+      Review the highlighted rows below.
+    </span>
+  </div>
+
+  <!-- ========== TABLE ========== -->
+  <section class="filings" aria-labelledby="filings-heading">
+    <div class="section-head">
+      <h2 id="filings-heading" class="section-head__title">Recent filings</h2>
+      <p class="section-head__sub">Newest first. Rows shaded amber are new since the previous check.</p>
+    </div>
+
+    <div class="table-wrap" role="region" aria-label="FERC filings table" tabindex="0">
+      <table class="filings-table">
+        <thead>
+          <tr>
+            <th scope="col" class="col-date">Filed date</th>
+            <th scope="col" class="col-accession">Accession</th>
+            <th scope="col" class="col-docket">Docket</th>
+            <th scope="col" class="col-filer">Filer</th>
+            <th scope="col" class="col-filing">Filing / request</th>
+            <th scope="col" class="col-tags">Counties / keywords</th>
+            <th scope="col" class="col-deadline">Deadline</th>
+            <th scope="col" class="col-action">Action link</th>
+          </tr>
+        </thead>
+        <tbody id="filings-body">
+          <!-- populated by app.js -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ========== SEARCH COVERAGE ========== -->
+  <section class="coverage" aria-labelledby="coverage-heading">
+    <div class="section-head">
+      <h2 id="coverage-heading" class="section-head__title">Search coverage</h2>
+      <p class="section-head__sub">What this monitor watches for in every FERC eLibrary check.</p>
+    </div>
+
+    <div class="coverage__grid">
+      <div class="coverage__col">
+        <h3 class="coverage__sub">Counties watched</h3>
+        <ul class="chips">
+          <li class="chip chip--county">Lauderdale</li>
+          <li class="chip chip--county">Kemper</li>
+          <li class="chip chip--county">Clarke <span class="chip__alt">/ Clark</span></li>
+          <li class="chip chip--county">Jasper</li>
+          <li class="chip chip--county">Scott</li>
+          <li class="chip chip--county">Newton</li>
+          <li class="chip chip--county">Leake</li>
+          <li class="chip chip--county">Attala</li>
+          <li class="chip chip--county">Neshoba</li>
+          <li class="chip chip--county">Choctaw</li>
+        </ul>
+      </div>
+
+      <div class="coverage__col">
+        <h3 class="coverage__sub">Broad terms tracked</h3>
+        <ul class="chips">
+          <li class="chip">data center</li>
+          <li class="chip">hyperscale campus</li>
+          <li class="chip">AI infrastructure</li>
+          <li class="chip">large-load customer</li>
+          <li class="chip">cloud infrastructure</li>
+          <li class="chip">utility corridor</li>
+          <li class="chip">transmission upgrades</li>
+          <li class="chip">substation expansion</li>
+          <li class="chip">solar generation</li>
+          <li class="chip">battery storage</li>
+          <li class="chip">compressor stations</li>
+          <li class="chip">pipeline infrastructure</li>
+          <li class="chip">industrial load growth</li>
+          <li class="chip">interconnection studies</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__rule" aria-hidden="true"></div>
+    <p class="footer__note">
+      Source: <a href="https://elibrary.ferc.gov/eLibrary/search" rel="noopener noreferrer">FERC eLibrary</a>
+      — the Federal Energy Regulatory Commission's public docket and document repository.
+      This page summarizes filings retrieved from eLibrary and links back to the official record.
+      Always confirm details against the original filing before acting.
+    </p>
+    <p class="footer__fine">
+      East Mississippi FERC Filing Monitor · Independent, non-commercial public-records project.
+    </p>
+  </footer>
+
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
