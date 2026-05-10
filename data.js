@@ -1,10 +1,10 @@
 /*
  * FERC Filing Monitor — data feed
- * Updated by scheduled monitor on 2026-05-09T19:42:00-05:00.
+ * Updated by scheduled monitor on 2026-05-10T01:41:00-05:00.
  */
 
 window.FERC_DATA = {
-  "last_checked": "2026-05-09T19:42:00-05:00",
+  "last_checked": "2026-05-10T01:41:00-05:00",
   "check_status": "ok",
   "since_last_check": 0,
   "rows": [
@@ -60,7 +60,7 @@ window.FERC_DATA = {
       "accession": "20260508-3019",
       "docket": "CP26-24-000",
       "filer": "FERC Staff",
-      "filing": "Notice of Availability of the Environmental Assessment for the proposed Kosciusko Compressor Station Replacement Project.",
+      "filing": "Notice of Availability of the Environmental Assessment for the proposed Kosciusko Compressor Station Replacement Project. Comments are due June 8, 2026 at 5:00 PM Eastern Time.",
       "counties": [
         "Attala"
       ],
@@ -70,8 +70,8 @@ window.FERC_DATA = {
         "pipeline infrastructure",
         "Environmental Assessment"
       ],
-      "deadline": null,
-      "deadline_type": "Comment period open; exact date to verify in NOA",
+      "deadline": "2026-06-08",
+      "deadline_type": "EA comment deadline, 5:00 PM Eastern Time",
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260508-3019"
     },
     {
@@ -90,8 +90,8 @@ window.FERC_DATA = {
         "pipeline infrastructure",
         "Environmental Assessment"
       ],
-      "deadline": null,
-      "deadline_type": "See NOA accession 20260508-3019",
+      "deadline": "2026-06-08",
+      "deadline_type": "Related EA comment deadline; see NOA accession 20260508-3019",
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260508-3002"
     },
     {
