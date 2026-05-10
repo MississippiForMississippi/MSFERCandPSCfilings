@@ -1,6 +1,6 @@
 /*
  * FERC Filing Monitor — data feed
- * Updated by scheduled monitor on 2026-05-10T13:42:00-05:00.
+ * Updated to add Smith County to the watch list on 2026-05-10T15:10:00-05:00.
  */
 
 window.FERC_DATA = {
@@ -448,7 +448,8 @@ window.FERC_DATA = {
         "Leake",
         "Attala",
         "Neshoba",
-        "Choctaw"
+        "Choctaw",
+        "Smith"
       ],
       "keywords": [
         "hyperscale",
@@ -477,7 +478,8 @@ window.FERC_DATA = {
         "Leake",
         "Attala",
         "Neshoba",
-        "Choctaw"
+        "Choctaw",
+        "Smith"
       ],
       "keywords": [
         "transmission infrastructure",
@@ -564,7 +566,8 @@ window.FERC_DATA = {
         "Leake",
         "Attala",
         "Neshoba",
-        "Choctaw"
+        "Choctaw",
+        "Smith"
       ],
       "keywords": [
         "transmission upgrades",
@@ -662,7 +665,8 @@ window.FERC_DATA = {
         "Leake",
         "Attala",
         "Neshoba",
-        "Choctaw"
+        "Choctaw",
+        "Smith"
       ],
       "keywords": [
         "large-load customer",
@@ -691,7 +695,8 @@ window.FERC_DATA = {
         "Leake",
         "Attala",
         "Neshoba",
-        "Choctaw"
+        "Choctaw",
+        "Smith"
       ],
       "keywords": [
         "hyperscale",

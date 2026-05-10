@@ -1,7 +1,7 @@
 # East Mississippi FERC Filing Monitor
 
 A static, single-page report that summarizes recent FERC eLibrary filings
-relevant to ten east-central Mississippi counties. Designed to be embedded
+relevant to eleven east-central Mississippi counties. Designed to be embedded
 as a Smartsheet **Web Content** widget or shared as a public link.
 
 ## Files
