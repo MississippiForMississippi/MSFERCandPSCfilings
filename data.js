@@ -1,10 +1,10 @@
 /*
  * FERC Filing Monitor — data feed
- * Updated to add Smith County to the watch list on 2026-05-10T15:10:00-05:00.
+ * Updated by scheduled monitor on 2026-05-10T19:42:00-05:00.
  */
 
 window.FERC_DATA = {
-  "last_checked": "2026-05-10T13:42:00-05:00",
+  "last_checked": "2026-05-10T19:42:00-05:00",
   "check_status": "ok",
   "since_last_check": 0,
   "rows": [
