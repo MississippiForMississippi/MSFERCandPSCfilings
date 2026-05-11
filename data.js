@@ -1,15 +1,66 @@
 /*
  * FERC Filing Monitor — data feed
- * Updated by scheduled monitor on 2026-05-11T02:41:00-05:00.
+ * Updated by scheduled monitor on 2026-05-11T13:42:00-05:00.
  */
 
 window.FERC_DATA = {
-  "last_checked": "2026-05-11T02:41:00-05:00",
+  "last_checked": "2026-05-11T13:42:00-05:00",
   "check_status": "ok",
-  "since_last_check": 1,
+  "since_last_check": 2,
   "rows": [
     {
       "is_new": true,
+      "filed_date": "2026-05-11",
+      "accession": "20260511-5063",
+      "docket": "CP25-514-000",
+      "filer": "Tennessee Gas Pipeline Company, L.L.C.",
+      "filing": "Privileged child attachment to Tennessee Gas Pipeline Company, L.L.C.'s response to FERC's May 5, 2026 environmental information request for the Mississippi Crossing Project. FERC metadata lists the file as Attachment DR-1_CUI_PRIV.xlsx with non-public/privileged availability.",
+      "counties": [
+        "Lauderdale",
+        "Kemper",
+        "Clarke",
+        "Neshoba",
+        "Attala",
+        "Leake"
+      ],
+      "keywords": [
+        "Mississippi Crossing",
+        "pipeline infrastructure",
+        "environmental information request",
+        "data request response",
+        "privileged attachment"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260511-5063"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-11",
+      "accession": "20260511-5062",
+      "docket": "CP25-514-000",
+      "filer": "Tennessee Gas Pipeline Company, L.L.C.",
+      "filing": "Response to FERC's May 5, 2026 environmental information request for the Mississippi Crossing Project. FERC metadata lists the public PDF as MSX Response to FERC EIR of 5_5_26.pdf.",
+      "counties": [
+        "Lauderdale",
+        "Kemper",
+        "Clarke",
+        "Neshoba",
+        "Attala",
+        "Leake"
+      ],
+      "keywords": [
+        "Mississippi Crossing",
+        "pipeline infrastructure",
+        "environmental information request",
+        "data request response"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260511-5062"
+    },
+    {
+      "is_new": false,
       "filed_date": "2026-05-11",
       "accession": "20260511-3005",
       "docket": "CP25-514-000",
@@ -331,7 +382,7 @@ window.FERC_DATA = {
       "accession": "20260506-5127",
       "docket": "CP25-514-000",
       "filer": "Tennessee Gas Pipeline Co., L.L.C.",
-      "filing": "MSX–TGP-SNG Precedent Agreement for Santee Cooper, execution version, marked privileged.",
+      "filing": "MSX\u2013TGP-SNG Precedent Agreement for Santee Cooper, execution version, marked privileged.",
       "counties": [
         "Lauderdale",
         "Clarke",
