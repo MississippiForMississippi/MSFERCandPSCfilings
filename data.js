@@ -1,13 +1,36 @@
 /*
  * FERC Filing Monitor — data feed
- * Updated by scheduled monitor on 2026-05-10T19:42:00-05:00.
+ * Updated by scheduled monitor on 2026-05-11T02:41:00-05:00.
  */
 
 window.FERC_DATA = {
-  "last_checked": "2026-05-10T19:42:00-05:00",
+  "last_checked": "2026-05-11T02:41:00-05:00",
   "check_status": "ok",
-  "since_last_check": 0,
+  "since_last_check": 1,
   "rows": [
+    {
+      "is_new": true,
+      "filed_date": "2026-05-11",
+      "accession": "20260511-3005",
+      "docket": "CP25-514-000",
+      "filer": "FERC Staff",
+      "filing": "Delegated Letter 2 requesting Tennessee Gas Pipeline Company, L.L.C. to respond to a data request within 5 days for the Mississippi Crossing Project.",
+      "counties": [
+        "Neshoba",
+        "Attala",
+        "Leake",
+        "Winston"
+      ],
+      "keywords": [
+        "Mississippi Crossing",
+        "pipeline infrastructure",
+        "data request",
+        "request for additional information"
+      ],
+      "deadline": "2026-05-16",
+      "deadline_type": "Applicant response deadline, within 5 days of 2026-05-11 letter; verify exact filing clock",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260511-3005"
+    },
     {
       "is_new": false,
       "filed_date": "2026-05-08",
