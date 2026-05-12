@@ -1,15 +1,15 @@
 /*
  * FERC Filing Monitor — data feed
- * Updated by scheduled monitor on 2026-05-11T13:42:00-05:00.
+ * Updated by scheduled monitor on 2026-05-11T19:42:00-05:00.
  */
 
 window.FERC_DATA = {
-  "last_checked": "2026-05-11T13:42:00-05:00",
+  "last_checked": "2026-05-11T19:42:00-05:00",
   "check_status": "ok",
-  "since_last_check": 2,
+  "since_last_check": 0,
   "rows": [
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-11",
       "accession": "20260511-5063",
       "docket": "CP25-514-000",
@@ -35,7 +35,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260511-5063"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-11",
       "accession": "20260511-5062",
       "docket": "CP25-514-000",
