@@ -1,10 +1,10 @@
 /*
  * FERC Filing Monitor — data feed
- * Updated by scheduled monitor on 2026-05-11T19:42:00-05:00.
+ * Updated by scheduled monitor on 2026-05-12T01:41:00-05:00.
  */
 
 window.FERC_DATA = {
-  "last_checked": "2026-05-11T19:42:00-05:00",
+  "last_checked": "2026-05-12T01:41:00-05:00",
   "check_status": "ok",
   "since_last_check": 0,
   "rows": [
