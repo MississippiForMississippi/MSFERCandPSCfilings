@@ -1,7 +1,7 @@
 window.FERC_DATA = {
-  "last_checked": "2026-05-19T07:41:00-05:00",
+  "last_checked": "2026-05-19T13:41:00-05:00",
   "check_status": "ok",
-  "since_last_check": 0,
+  "since_last_check": 2,
   "rows": [
     {
       "is_new": false,
@@ -159,6 +159,48 @@ window.FERC_DATA = {
       "deadline": null,
       "deadline_type": "",
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5118"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-15",
+      "accession": "20260515-5082",
+      "docket": "CP26-525-000",
+      "filer": "Monroe Gas Storage Company, LLC",
+      "filing": "CEII/privileged component of the Wheeling Gas Optimization Project certificate application/Prior Notice Request for Monroe Gas Storage Company, LLC.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "CP26-525",
+        "natural gas storage",
+        "pipeline infrastructure",
+        "Wheeling Gas Optimization Project",
+        "Monroe Gas Storage"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5082"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-15",
+      "accession": "20260515-5081",
+      "docket": "CP26-525-000",
+      "filer": "Monroe Gas Storage Company, LLC",
+      "filing": "Privileged component of the Wheeling Gas Optimization Project certificate application/Prior Notice Request for Monroe Gas Storage Company, LLC.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "CP26-525",
+        "natural gas storage",
+        "pipeline infrastructure",
+        "Wheeling Gas Optimization Project",
+        "Monroe Gas Storage"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5081"
     },
     {
       "is_new": false,
