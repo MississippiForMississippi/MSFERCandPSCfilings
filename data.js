@@ -1,13 +1,307 @@
 /*
  * FERC Filing Monitor — data feed
- * Updated by scheduled monitor on 2026-05-12T07:41:00-05:00.
+ * Updated by scheduled monitor on 2026-05-18T16:44:00-05:00.
  */
 
 window.FERC_DATA = {
-  "last_checked": "2026-05-12T07:41:00-05:00",
+  "last_checked": "2026-05-18T16:44:00-05:00",
   "check_status": "ok",
-  "since_last_check": 0,
+  "since_last_check": 13,
   "rows": [
+    {
+      "is_new": true,
+      "filed_date": "2026-05-18",
+      "accession": "20260518-0003",
+      "docket": "CP25-547-000 / CP25-549-000",
+      "filer": "U.S. Representative Bennie G. Thompson",
+      "filing": "Comments on the Draft Environmental Impact Statement for the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Attala",
+        "Scott",
+        "Leake"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "pipeline infrastructure",
+        "Draft Environmental Impact Statement",
+        "public comments"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260518-0003"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-15",
+      "accession": "20260515-5236",
+      "docket": "CP25-547-000 / CP25-549-000",
+      "filer": "Gulf South Pipeline Company, LLC et al.",
+      "filing": "Applicant response to FERC's Draft Environmental Impact Statement for the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Attala",
+        "Scott",
+        "Leake"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "pipeline infrastructure",
+        "DEIS response",
+        "environmental review"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5236"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-15",
+      "accession": "20260515-5235",
+      "docket": "CP25-547-000 / CP25-549-000",
+      "filer": "Gulf South Pipeline Company, LLC et al.",
+      "filing": "Transmittal/companion DEIS response materials for the Kosciusko Junction Pipeline Project, including project mapping noted in eLibrary review.",
+      "counties": [
+        "Attala",
+        "Scott",
+        "Leake"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "pipeline infrastructure",
+        "DEIS response",
+        "project mapping",
+        "environmental review"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5235"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-15",
+      "accession": "20260515-5192",
+      "docket": "CP25-514-000",
+      "filer": "Tennessee Gas Pipeline Company, L.L.C.",
+      "filing": "Response to FERC's May 11, 2026 data request for the Mississippi Crossing Project.",
+      "counties": [
+        "Lauderdale",
+        "Kemper",
+        "Clarke",
+        "Neshoba",
+        "Attala",
+        "Leake"
+      ],
+      "keywords": [
+        "Mississippi Crossing",
+        "pipeline infrastructure",
+        "data request response"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5192"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-15",
+      "accession": "20260515-5119",
+      "docket": "CP25-549-000 / CP25-547-000",
+      "filer": "Gulf South Pipeline Company, LLC et al.",
+      "filing": "Privileged document component of Weekly Status Report responding to FERC's April 23 environmental information request for the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Attala",
+        "Scott",
+        "Leake"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "pipeline infrastructure",
+        "weekly status report",
+        "environmental information request",
+        "privileged attachment"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5119"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-15",
+      "accession": "20260515-5118",
+      "docket": "CP25-547-000 / CP25-549-000",
+      "filer": "Gulf South Pipeline Company, LLC et al.",
+      "filing": "Public Weekly Status Report responding to FERC's April 23 environmental information request for the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Attala",
+        "Scott",
+        "Leake"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "pipeline infrastructure",
+        "weekly status report",
+        "environmental information request"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5118"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-15",
+      "accession": "20260515-5080",
+      "docket": "CP26-525-000",
+      "filer": "Monroe Gas Storage Company, LLC",
+      "filing": "Prior Notice Request for Authorization for facilities in Monroe County, Mississippi for the Wheeling Gas Optimization Project. Included as marginal statewide awareness because the browser review flagged Mississippi data-center/load-growth context.",
+      "counties": [
+        "Monroe",
+        "Mississippi"
+      ],
+      "keywords": [
+        "pipeline infrastructure",
+        "gas storage",
+        "data center load growth",
+        "Mississippi"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5080"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-15",
+      "accession": "20260515-5061",
+      "docket": "CP25-514-000",
+      "filer": "Tennessee Gas Pipeline Company, L.L.C.",
+      "filing": "Weekly State Historic Preservation Offices update No. 2 for the Mississippi Crossing Project for the period ending May 15, 2026.",
+      "counties": [
+        "Lauderdale",
+        "Kemper",
+        "Clarke",
+        "Neshoba",
+        "Attala",
+        "Leake"
+      ],
+      "keywords": [
+        "Mississippi Crossing",
+        "SHPO",
+        "pipeline infrastructure",
+        "cultural resources"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5061"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-15",
+      "accession": "20260515-3048",
+      "docket": "CP25-517-000",
+      "filer": "FERC Staff",
+      "filing": "Letter requesting Southern Natural Gas Company, L.L.C. et al. to file a response to a data request within 7 days for the South System Expansion 4 Project.",
+      "counties": [
+        "Lauderdale",
+        "Kemper",
+        "Jasper",
+        "Newton",
+        "Clarke"
+      ],
+      "keywords": [
+        "SSE4",
+        "South System Expansion 4",
+        "pipeline infrastructure",
+        "data request",
+        "request for additional information"
+      ],
+      "deadline": "2026-05-22",
+      "deadline_type": "Applicant response deadline, within 7 days of 2026-05-15 letter",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-3048"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-14",
+      "accession": "20260514-5033",
+      "docket": "CP25-547-000",
+      "filer": "Mississippi Rising Coalition",
+      "filing": "Motion for Leave to Intervene Out of Time in the Kosciusko Junction Pipeline proceeding.",
+      "counties": [
+        "Attala",
+        "Scott",
+        "Leake",
+        "Mississippi"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "pipeline infrastructure",
+        "intervention",
+        "public participation"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260514-5033"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-13",
+      "accession": "20260513-5057",
+      "docket": "CP26-24-000",
+      "filer": "Choctaw Nation of Oklahoma",
+      "filing": "Comments regarding the Kosciusko Compressor Station Replacement Project.",
+      "counties": [
+        "Attala"
+      ],
+      "keywords": [
+        "Kosciusko Compressor",
+        "compressor station",
+        "pipeline infrastructure",
+        "tribal comments"
+      ],
+      "deadline": "2026-06-08",
+      "deadline_type": "Related EA comment deadline remains June 8, 2026 at 5:00 PM Eastern Time",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260513-5057"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-13",
+      "accession": "20260513-5055",
+      "docket": "CP25-549-000 / CP25-547-000",
+      "filer": "Choctaw Nation of Oklahoma",
+      "filing": "Comments requesting extension of time to review the Draft Environmental Impact Statement for the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Attala",
+        "Scott",
+        "Leake"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "pipeline infrastructure",
+        "DEIS",
+        "tribal comments",
+        "extension request"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260513-5055"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-12",
+      "accession": "20260512-3076",
+      "docket": "ER26-1953-000",
+      "filer": "FERC Staff",
+      "filing": "Letter order accepting Midcontinent Independent System Operator, Inc.'s Generator Interconnection Agreement with Entergy Mississippi, LLC.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "MISO",
+        "Entergy Mississippi",
+        "interconnection",
+        "generator interconnection agreement",
+        "electric infrastructure"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260512-3076"
+    },
     {
       "is_new": false,
       "filed_date": "2026-05-11",
@@ -79,7 +373,7 @@ window.FERC_DATA = {
         "request for additional information"
       ],
       "deadline": "2026-05-16",
-      "deadline_type": "Applicant response deadline, within 5 days of 2026-05-11 letter; verify exact filing clock",
+      "deadline_type": "Applicant response request; response filed 2026-05-15 under accession 20260515-5192",
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260511-3005"
     },
     {
