@@ -1,7 +1,7 @@
-# East Mississippi FERC Filing Monitor
+# Mississippi FERC Filing Monitor
 
 A static, single-page report that summarizes recent FERC eLibrary filings
-relevant to eleven east-central Mississippi counties. Designed to be embedded
+relevant to all 82 Mississippi counties. Designed to be embedded
 as a Smartsheet **Web Content** widget or shared as a public link.
 
 ## Files
@@ -34,9 +34,9 @@ window.FERC_DATA = {
       accession: "20250114-5037",
       docket: "ER25-1234-000",
       filer: "Entergy Mississippi, LLC",
-      filing: "Application for transmission interconnection — Lauderdale County substation expansion.",
+      filing: "Application for natural gas pipeline, storage, solar, data center, or transmission infrastructure in Mississippi.",
       counties: ["Lauderdale"],                        // proper-case county names
-      keywords: ["substation expansion", "transmission upgrades"],
+      keywords: ["natural gas pipeline", "storage", "solar", "data center", "substation expansion"],
       deadline: "2025-02-13",                          // YYYY-MM-DD or null
       deadline_type: "Comment",                        // "Comment" | "Intervention" | "Protest" | ""
       link: "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=20250114-5037"

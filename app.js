@@ -6,7 +6,7 @@
 (function () {
   "use strict";
 
-  var WATCHED_COUNTIES = 11;
+  var WATCHED_COUNTIES = 82;
 
   /* ---------- helpers ---------- */
   function $(id) { return document.getElementById(id); }

@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <meta name="color-scheme" content="light only" />
 <meta name="referrer" content="no-referrer" />
-<title>East Mississippi FERC Filing Monitor</title>
-<meta name="description" content="A public-records watchdog report of FERC eLibrary filings affecting east-central Mississippi counties." />
+<title>Mississippi FERC Filing Monitor</title>
+<meta name="description" content="A public-records watchdog report of FERC eLibrary filings affecting Mississippi counties, energy infrastructure, data centers, solar, natural gas pipeline, and storage projects." />
 <link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%235e3a1f'/><path d='M7 22 L16 8 L25 22 Z' fill='none' stroke='%23f3ead6' stroke-width='2.4' stroke-linejoin='round'/><circle cx='16' cy='17' r='2.2' fill='%23f3ead6'/></svg>" />
 <link rel="preconnect" href="https://api.fontshare.com" />
 <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=fraunces@400,500,600,700&f[]=general-sans@400,500,600&f[]=jetbrains-mono@400,500&display=swap" />
@@ -18,7 +18,7 @@
   <!-- ========== HEADER ========== -->
   <header class="masthead" role="banner">
     <div class="masthead__top">
-      <a href="#" class="brand" aria-label="East Mississippi FERC Filing Monitor — home">
+      <a href="#" class="brand" aria-label="Mississippi FERC Filing Monitor — home">
         <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
           <rect x="1" y="1" width="46" height="46" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/>
           <path d="M8 36 L24 12 L40 36 Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
@@ -26,7 +26,7 @@
           <circle cx="24" cy="28" r="2.6" fill="currentColor"/>
         </svg>
         <span class="brand__wordmark">
-          <span class="brand__line1">East Mississippi</span>
+          <span class="brand__line1">Mississippi</span>
           <span class="brand__line2">FERC Filing Monitor</span>
         </span>
       </a>
@@ -39,8 +39,9 @@
 
     <p class="masthead__lede">
       A grassroots monitoring report of new filings at the Federal Energy Regulatory Commission
-      that may affect Lauderdale, Kemper, Clarke, Jasper, Scott, Newton, Leake, Attala,
-      Neshoba, Choctaw, and Smith counties. Updated automatically when the scheduled check runs.
+      that may affect any Mississippi county, with special attention to solar, natural gas
+      pipeline, storage, data center, transmission, interconnection, and related attachment
+      filings. Updated automatically when the daily morning check runs.
     </p>
   </header>
 
@@ -59,7 +60,7 @@
     <article class="card" id="card-counties">
       <span class="card__label">Counties matched</span>
       <span class="card__value" id="val-counties">0</span>
-      <span class="card__sub" id="val-counties-sub">of 11 watched</span>
+      <span class="card__sub" id="val-counties-sub">of 82 watched</span>
     </article>
     <article class="card" id="card-deadlines">
       <span class="card__label">Deadlines found</span>
@@ -127,24 +128,102 @@
       <div class="coverage__col">
         <h3 class="coverage__sub">Counties watched</h3>
         <ul class="chips">
-          <li class="chip chip--county">Lauderdale</li>
-          <li class="chip chip--county">Kemper</li>
-          <li class="chip chip--county">Clarke <span class="chip__alt">/ Clark</span></li>
-          <li class="chip chip--county">Jasper</li>
-          <li class="chip chip--county">Scott</li>
-          <li class="chip chip--county">Newton</li>
-          <li class="chip chip--county">Leake</li>
+          <li class="chip chip--county">All 82 Mississippi counties</li>
+          <li class="chip chip--county">Adams</li>
+          <li class="chip chip--county">Alcorn</li>
+          <li class="chip chip--county">Amite</li>
           <li class="chip chip--county">Attala</li>
-          <li class="chip chip--county">Neshoba</li>
+          <li class="chip chip--county">Benton</li>
+          <li class="chip chip--county">Bolivar</li>
+          <li class="chip chip--county">Calhoun</li>
+          <li class="chip chip--county">Carroll</li>
+          <li class="chip chip--county">Chickasaw</li>
           <li class="chip chip--county">Choctaw</li>
+          <li class="chip chip--county">Claiborne</li>
+          <li class="chip chip--county">Clarke</li>
+          <li class="chip chip--county">Clay</li>
+          <li class="chip chip--county">Coahoma</li>
+          <li class="chip chip--county">Copiah</li>
+          <li class="chip chip--county">Covington</li>
+          <li class="chip chip--county">DeSoto</li>
+          <li class="chip chip--county">Forrest</li>
+          <li class="chip chip--county">Franklin</li>
+          <li class="chip chip--county">George</li>
+          <li class="chip chip--county">Greene</li>
+          <li class="chip chip--county">Grenada</li>
+          <li class="chip chip--county">Hancock</li>
+          <li class="chip chip--county">Harrison</li>
+          <li class="chip chip--county">Hinds</li>
+          <li class="chip chip--county">Holmes</li>
+          <li class="chip chip--county">Humphreys</li>
+          <li class="chip chip--county">Issaquena</li>
+          <li class="chip chip--county">Itawamba</li>
+          <li class="chip chip--county">Jackson</li>
+          <li class="chip chip--county">Jasper</li>
+          <li class="chip chip--county">Jefferson</li>
+          <li class="chip chip--county">Jefferson Davis</li>
+          <li class="chip chip--county">Jones</li>
+          <li class="chip chip--county">Kemper</li>
+          <li class="chip chip--county">Lafayette</li>
+          <li class="chip chip--county">Lamar</li>
+          <li class="chip chip--county">Lauderdale</li>
+          <li class="chip chip--county">Lawrence</li>
+          <li class="chip chip--county">Leake</li>
+          <li class="chip chip--county">Lee</li>
+          <li class="chip chip--county">Leflore</li>
+          <li class="chip chip--county">Lincoln</li>
+          <li class="chip chip--county">Lowndes</li>
+          <li class="chip chip--county">Madison</li>
+          <li class="chip chip--county">Marion</li>
+          <li class="chip chip--county">Marshall</li>
+          <li class="chip chip--county">Monroe</li>
+          <li class="chip chip--county">Montgomery</li>
+          <li class="chip chip--county">Neshoba</li>
+          <li class="chip chip--county">Newton</li>
+          <li class="chip chip--county">Noxubee</li>
+          <li class="chip chip--county">Oktibbeha</li>
+          <li class="chip chip--county">Panola</li>
+          <li class="chip chip--county">Pearl River</li>
+          <li class="chip chip--county">Perry</li>
+          <li class="chip chip--county">Pike</li>
+          <li class="chip chip--county">Pontotoc</li>
+          <li class="chip chip--county">Prentiss</li>
+          <li class="chip chip--county">Quitman</li>
+          <li class="chip chip--county">Rankin</li>
+          <li class="chip chip--county">Scott</li>
+          <li class="chip chip--county">Sharkey</li>
+          <li class="chip chip--county">Simpson</li>
           <li class="chip chip--county">Smith</li>
+          <li class="chip chip--county">Stone</li>
+          <li class="chip chip--county">Sunflower</li>
+          <li class="chip chip--county">Tallahatchie</li>
+          <li class="chip chip--county">Tate</li>
+          <li class="chip chip--county">Tippah</li>
+          <li class="chip chip--county">Tishomingo</li>
+          <li class="chip chip--county">Tunica</li>
+          <li class="chip chip--county">Union</li>
+          <li class="chip chip--county">Walthall</li>
+          <li class="chip chip--county">Warren</li>
+          <li class="chip chip--county">Washington</li>
+          <li class="chip chip--county">Wayne</li>
+          <li class="chip chip--county">Webster</li>
+          <li class="chip chip--county">Wilkinson</li>
+          <li class="chip chip--county">Winston</li>
+          <li class="chip chip--county">Yalobusha</li>
+          <li class="chip chip--county">Yazoo</li>
         </ul>
       </div>
 
       <div class="coverage__col">
-        <h3 class="coverage__sub">Broad terms tracked</h3>
+        <h3 class="coverage__sub">Categories and terms tracked</h3>
         <ul class="chips">
+          <li class="chip">solar</li>
+          <li class="chip">solar generation</li>
+          <li class="chip">natural gas pipeline</li>
+          <li class="chip">gas storage</li>
+          <li class="chip">LNG</li>
           <li class="chip">data center</li>
+          <li class="chip">data centers</li>
           <li class="chip">hyperscale campus</li>
           <li class="chip">AI infrastructure</li>
           <li class="chip">large-load customer</li>
@@ -158,6 +237,10 @@
           <li class="chip">pipeline infrastructure</li>
           <li class="chip">industrial load growth</li>
           <li class="chip">interconnection studies</li>
+          <li class="chip">attachments and exhibits</li>
+          <li class="chip">maps and alignment sheets</li>
+          <li class="chip">privileged / CEII components</li>
+          <li class="chip">SHPO and cultural-resource updates</li>
         </ul>
       </div>
     </div>
@@ -173,7 +256,7 @@
       Always confirm details against the original filing before acting.
     </p>
     <p class="footer__fine">
-      East Mississippi FERC Filing Monitor · Independent, non-commercial public-records project.
+      Mississippi FERC Filing Monitor · Independent, non-commercial public-records project.
     </p>
   </footer>
 
