@@ -1,15 +1,31 @@
-/*
- * FERC Filing Monitor — data feed
- * Updated by scheduled monitor on 2026-05-18T16:44:00-05:00.
- */
-
 window.FERC_DATA = {
-  "last_checked": "2026-05-18T16:44:00-05:00",
+  "last_checked": "2026-05-18T20:42:00-05:00",
   "check_status": "ok",
-  "since_last_check": 13,
+  "since_last_check": 1,
   "rows": [
     {
       "is_new": true,
+      "filed_date": "2026-05-18",
+      "accession": "20260518-5006",
+      "docket": "P-15330-001",
+      "filer": "KRAM HYDRO 3 LLC",
+      "filing": "Proposed Study Plan for the Emmett Sanders Lock and Dam Hydroelectric Project under FERC's Integrated Licensing Process.",
+      "counties": [
+        "Smith",
+        "Mississippi"
+      ],
+      "keywords": [
+        "Smith County",
+        "hydroelectric project",
+        "energy infrastructure",
+        "ILP Proposed Study Plan"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260518-5006"
+    },
+    {
+      "is_new": false,
       "filed_date": "2026-05-18",
       "accession": "20260518-0003",
       "docket": "CP25-547-000 / CP25-549-000",
@@ -31,7 +47,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260518-0003"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-15",
       "accession": "20260515-5236",
       "docket": "CP25-547-000 / CP25-549-000",
@@ -53,7 +69,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5236"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-15",
       "accession": "20260515-5235",
       "docket": "CP25-547-000 / CP25-549-000",
@@ -76,7 +92,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5235"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-15",
       "accession": "20260515-5192",
       "docket": "CP25-514-000",
@@ -100,7 +116,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5192"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-15",
       "accession": "20260515-5119",
       "docket": "CP25-549-000 / CP25-547-000",
@@ -123,7 +139,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5119"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-15",
       "accession": "20260515-5118",
       "docket": "CP25-547-000 / CP25-549-000",
@@ -145,7 +161,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5118"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-15",
       "accession": "20260515-5080",
       "docket": "CP26-525-000",
@@ -166,7 +182,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5080"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-15",
       "accession": "20260515-5061",
       "docket": "CP25-514-000",
@@ -191,7 +207,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5061"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-15",
       "accession": "20260515-3048",
       "docket": "CP25-517-000",
@@ -216,7 +232,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-3048"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-14",
       "accession": "20260514-5033",
       "docket": "CP25-547-000",
@@ -239,7 +255,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260514-5033"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-13",
       "accession": "20260513-5057",
       "docket": "CP26-24-000",
@@ -259,7 +275,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260513-5057"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-13",
       "accession": "20260513-5055",
       "docket": "CP25-549-000 / CP25-547-000",
@@ -282,7 +298,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260513-5055"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-12",
       "accession": "20260512-3076",
       "docket": "ER26-1953-000",
@@ -401,6 +417,30 @@ window.FERC_DATA = {
     {
       "is_new": false,
       "filed_date": "2026-05-08",
+      "accession": "20260508-5053",
+      "docket": "CP25-514-000",
+      "filer": "Tennessee Gas Pipeline Co., L.L.C.",
+      "filing": "Monthly update for May 2026 covering consultations and correspondence with agencies on the Mississippi Crossing Project.",
+      "counties": [
+        "Lauderdale",
+        "Clarke",
+        "Neshoba",
+        "Kemper",
+        "Choctaw",
+        "Attala"
+      ],
+      "keywords": [
+        "Mississippi Crossing",
+        "pipeline infrastructure",
+        "utility corridor"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260508-5053"
+    },
+    {
+      "is_new": false,
+      "filed_date": "2026-05-08",
       "accession": "20260508-5052",
       "docket": "CP25-514-000",
       "filer": "Tennessee Gas Pipeline Company, L.L.C.",
@@ -489,6 +529,30 @@ window.FERC_DATA = {
     {
       "is_new": false,
       "filed_date": "2026-05-06",
+      "accession": "20260506-5127",
+      "docket": "CP25-514-000",
+      "filer": "Tennessee Gas Pipeline Co., L.L.C.",
+      "filing": "MSX–TGP-SNG Precedent Agreement for Santee Cooper, execution version, marked privileged.",
+      "counties": [
+        "Lauderdale",
+        "Clarke",
+        "Neshoba",
+        "Kemper",
+        "Choctaw",
+        "Attala"
+      ],
+      "keywords": [
+        "Mississippi Crossing",
+        "pipeline infrastructure",
+        "large-load demand"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260506-5127"
+    },
+    {
+      "is_new": false,
+      "filed_date": "2026-05-06",
       "accession": "20260506-5126",
       "docket": "CP25-514-000",
       "filer": "Tennessee Gas Pipeline Company, L.L.C.",
@@ -554,6 +618,26 @@ window.FERC_DATA = {
       "deadline": null,
       "deadline_type": "",
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260505-5140"
+    },
+    {
+      "is_new": false,
+      "filed_date": "2026-05-05",
+      "accession": "20260505-5139",
+      "docket": "CP25-517-000",
+      "filer": "Southern Natural Gas Co., L.L.C.",
+      "filing": "SSE4 data request responses to FERC environmental information request.",
+      "counties": [
+        "Clarke",
+        "Lauderdale"
+      ],
+      "keywords": [
+        "SSE4",
+        "pipeline infrastructure",
+        "interconnection"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260505-5139"
     },
     {
       "is_new": false,
@@ -648,71 +732,51 @@ window.FERC_DATA = {
     },
     {
       "is_new": false,
-      "filed_date": "2026-05-08",
-      "accession": "20260508-5053",
-      "docket": "CP25-514-000",
-      "filer": "Tennessee Gas Pipeline Co., L.L.C.",
-      "filing": "Monthly update for May 2026 covering consultations and correspondence with agencies on the Mississippi Crossing Project.",
+      "filed_date": "2026-04-30",
+      "accession": "20260430-0002",
+      "docket": "EL25-49-000 / AD24-11-000 / EL25-20-001",
+      "filer": "American Electric Power et al.",
+      "filing": "Petition for Review in D.C. Circuit concerning large-load interconnection matters; search results noted hyperscale references.",
       "counties": [
         "Lauderdale",
-        "Clarke",
-        "Neshoba",
         "Kemper",
+        "Clarke",
+        "Jasper",
+        "Scott",
+        "Newton",
+        "Leake",
+        "Attala",
+        "Neshoba",
         "Choctaw",
-        "Attala"
+        "Smith"
       ],
       "keywords": [
-        "Mississippi Crossing",
-        "pipeline infrastructure",
-        "utility corridor"
+        "hyperscale",
+        "large-load customer",
+        "interconnection studies"
       ],
       "deadline": null,
       "deadline_type": "",
-      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260508-5053"
+      "link": "https://elibrary.ferc.gov/eLibrary/search"
     },
     {
       "is_new": false,
-      "filed_date": "2026-05-06",
-      "accession": "20260506-5127",
-      "docket": "CP25-514-000",
-      "filer": "Tennessee Gas Pipeline Co., L.L.C.",
-      "filing": "MSX\u2013TGP-SNG Precedent Agreement for Santee Cooper, execution version, marked privileged.",
+      "filed_date": "2026-04-23",
+      "accession": "20260423-5219",
+      "docket": "EC26-90-000",
+      "filer": "Sycamore Riverside Energy LLC / AEP",
+      "filing": "FPA Section 203 application concerning disposition of generation facility assets; matched Jasper-area search terms.",
       "counties": [
-        "Lauderdale",
-        "Clarke",
-        "Neshoba",
-        "Kemper",
-        "Choctaw",
-        "Attala"
+        "Jasper"
       ],
       "keywords": [
-        "Mississippi Crossing",
-        "pipeline infrastructure",
-        "large-load demand"
+        "generation assets",
+        "industrial load growth",
+        "electric infrastructure"
       ],
       "deadline": null,
       "deadline_type": "",
-      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260506-5127"
-    },
-    {
-      "is_new": false,
-      "filed_date": "2026-05-05",
-      "accession": "20260505-5139",
-      "docket": "CP25-517-000",
-      "filer": "Southern Natural Gas Co., L.L.C.",
-      "filing": "SSE4 data request responses to FERC environmental information request.",
-      "counties": [
-        "Clarke",
-        "Lauderdale"
-      ],
-      "keywords": [
-        "SSE4",
-        "pipeline infrastructure",
-        "interconnection"
-      ],
-      "deadline": null,
-      "deadline_type": "",
-      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260505-5139"
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260423-5219"
     },
     {
       "is_new": false,
@@ -802,36 +866,6 @@ window.FERC_DATA = {
     {
       "is_new": false,
       "filed_date": "2026-04-03",
-      "accession": "20260403-5122",
-      "docket": "RM26-4-000",
-      "filer": "MISO Transmission Owners",
-      "filing": "Supplemental comments to FERC ANOPR on large-load interconnection; search results noted hyperscale references and Mississippi-relevant MISO territory.",
-      "counties": [
-        "Lauderdale",
-        "Kemper",
-        "Clarke",
-        "Jasper",
-        "Scott",
-        "Newton",
-        "Leake",
-        "Attala",
-        "Neshoba",
-        "Choctaw",
-        "Smith"
-      ],
-      "keywords": [
-        "hyperscale",
-        "large-load customer",
-        "interconnection studies",
-        "transmission upgrades"
-      ],
-      "deadline": null,
-      "deadline_type": "",
-      "link": "https://elibrary.ferc.gov/eLibrary/search"
-    },
-    {
-      "is_new": false,
-      "filed_date": "2026-04-03",
       "accession": "20260403-8004",
       "docket": "FERC Form 1",
       "filer": "Entergy Mississippi, LLC",
@@ -860,22 +894,33 @@ window.FERC_DATA = {
     },
     {
       "is_new": false,
-      "filed_date": "2026-04-23",
-      "accession": "20260423-5219",
-      "docket": "EC26-90-000",
-      "filer": "Sycamore Riverside Energy LLC / AEP",
-      "filing": "FPA Section 203 application concerning disposition of generation facility assets; matched Jasper-area search terms.",
+      "filed_date": "2026-04-03",
+      "accession": "20260403-5122",
+      "docket": "RM26-4-000",
+      "filer": "MISO Transmission Owners",
+      "filing": "Supplemental comments to FERC ANOPR on large-load interconnection; search results noted hyperscale references and Mississippi-relevant MISO territory.",
       "counties": [
-        "Jasper"
+        "Lauderdale",
+        "Kemper",
+        "Clarke",
+        "Jasper",
+        "Scott",
+        "Newton",
+        "Leake",
+        "Attala",
+        "Neshoba",
+        "Choctaw",
+        "Smith"
       ],
       "keywords": [
-        "generation assets",
-        "industrial load growth",
-        "electric infrastructure"
+        "hyperscale",
+        "large-load customer",
+        "interconnection studies",
+        "transmission upgrades"
       ],
       "deadline": null,
       "deadline_type": "",
-      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260423-5219"
+      "link": "https://elibrary.ferc.gov/eLibrary/search"
     },
     {
       "is_new": false,
@@ -1041,35 +1086,6 @@ window.FERC_DATA = {
         "interconnection studies",
         "data center",
         "transmission upgrades"
-      ],
-      "deadline": null,
-      "deadline_type": "",
-      "link": "https://elibrary.ferc.gov/eLibrary/search"
-    },
-    {
-      "is_new": false,
-      "filed_date": "2026-04-30",
-      "accession": "20260430-0002",
-      "docket": "EL25-49-000 / AD24-11-000 / EL25-20-001",
-      "filer": "American Electric Power et al.",
-      "filing": "Petition for Review in D.C. Circuit concerning large-load interconnection matters; search results noted hyperscale references.",
-      "counties": [
-        "Lauderdale",
-        "Kemper",
-        "Clarke",
-        "Jasper",
-        "Scott",
-        "Newton",
-        "Leake",
-        "Attala",
-        "Neshoba",
-        "Choctaw",
-        "Smith"
-      ],
-      "keywords": [
-        "hyperscale",
-        "large-load customer",
-        "interconnection studies"
       ],
       "deadline": null,
       "deadline_type": "",
