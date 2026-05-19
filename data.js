@@ -1,10 +1,10 @@
 window.FERC_DATA = {
-  "last_checked": "2026-05-18T20:42:00-05:00",
+  "last_checked": "2026-05-19T01:42:00-05:00",
   "check_status": "ok",
-  "since_last_check": 1,
+  "since_last_check": 0,
   "rows": [
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-18",
       "accession": "20260518-5006",
       "docket": "P-15330-001",
