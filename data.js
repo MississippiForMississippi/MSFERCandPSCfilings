@@ -1,8 +1,96 @@
 window.FERC_DATA = {
-  "last_checked": "2026-05-19T13:41:00-05:00",
+  "last_checked": "2026-05-20T09:02:00-05:00",
   "check_status": "ok",
-  "since_last_check": 2,
+  "since_last_check": 16,
   "rows": [
+    {
+      "is_new": true,
+      "filed_date": "2026-05-20",
+      "accession": "20260520-3019",
+      "docket": "CP25-514-000",
+      "filer": "FERC",
+      "filing": "Final Environmental Information Request issued to Tennessee Gas Pipeline Company, LLC for the Mississippi Crossing Project.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "Mississippi Crossing",
+        "natural gas pipeline",
+        "certificate application",
+        "environmental information request",
+        "FERC correspondence"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260520-3019"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-19",
+      "accession": "20260519-5166",
+      "docket": "OR25-4-000",
+      "filer": "Pembina Pipeline Corporation / proceeding parties",
+      "filing": "Motion to Supplement and Supplemental Answer in the OR25-4 Pembina/McComb pipeline rate proceeding.",
+      "counties": [
+        "Pike",
+        "Mississippi"
+      ],
+      "keywords": [
+        "natural gas pipeline",
+        "pipeline infrastructure",
+        "McComb",
+        "trial testimony",
+        "supplemental answer"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260519-5166"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-19",
+      "accession": "20260519-5134",
+      "docket": "CP26-525-000",
+      "filer": "Monroe Gas Storage Company, LLC",
+      "filing": "Supplement and Modeling Report for the Wheeling Gas Optimization Project.",
+      "counties": [
+        "Monroe",
+        "Mississippi"
+      ],
+      "keywords": [
+        "natural gas storage",
+        "pipeline infrastructure",
+        "Monroe Gas Storage",
+        "Wheeling Gas Optimization Project",
+        "modeling report"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260519-5134"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-19",
+      "accession": "20260519-5036",
+      "docket": "CP26-17-000",
+      "filer": "U.S. Environmental Protection Agency Region 4",
+      "filing": "EPA Region 4 comments on the Draft Environmental Assessment for the Leaf River Capacity Expansion Project.",
+      "counties": [
+        "Smith",
+        "Perry",
+        "Mississippi"
+      ],
+      "keywords": [
+        "natural gas pipeline",
+        "natural gas storage",
+        "Leaf River Capacity Expansion",
+        "environmental assessment",
+        "comments"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260519-5036"
+    },
     {
       "is_new": false,
       "filed_date": "2026-05-18",
@@ -116,6 +204,28 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5192"
     },
     {
+      "is_new": true,
+      "filed_date": "2026-05-15",
+      "accession": "20260515-5186",
+      "docket": "CP26-525-000 / CP26-526-000",
+      "filer": "Monroe Gas Storage Company, LLC",
+      "filing": "Public Volume I for the Clinton Town Border Station and Pipeline ES Relocation Project.",
+      "counties": [
+        "Monroe",
+        "Mississippi"
+      ],
+      "keywords": [
+        "natural gas storage",
+        "pipeline infrastructure",
+        "border station",
+        "pipeline relocation",
+        "Monroe Gas Storage"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5186"
+    },
+    {
       "is_new": false,
       "filed_date": "2026-05-15",
       "accession": "20260515-5119",
@@ -161,7 +271,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5118"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-15",
       "accession": "20260515-5082",
       "docket": "CP26-525-000",
@@ -182,7 +292,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5082"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-15",
       "accession": "20260515-5081",
       "docket": "CP26-525-000",
@@ -274,6 +384,178 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-3048"
     },
     {
+      "is_new": true,
+      "filed_date": "2026-05-14",
+      "accession": "20260514-5178",
+      "docket": "OR25-4-000",
+      "filer": "FERC Trial Staff / proceeding witness",
+      "filing": "Privileged Gill testimony/exhibits in the OR25-4 Pembina/McComb pipeline rate proceeding.",
+      "counties": [
+        "Pike",
+        "Mississippi"
+      ],
+      "keywords": [
+        "natural gas pipeline",
+        "pipeline infrastructure",
+        "McComb",
+        "trial testimony",
+        "privileged component"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260514-5178"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-14",
+      "accession": "20260514-5177",
+      "docket": "OR25-4-000",
+      "filer": "FERC Trial Staff / proceeding witness",
+      "filing": "Public Gill witness testimony in the OR25-4 Pembina/McComb pipeline rate proceeding.",
+      "counties": [
+        "Pike",
+        "Mississippi"
+      ],
+      "keywords": [
+        "natural gas pipeline",
+        "pipeline infrastructure",
+        "McComb",
+        "trial testimony"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260514-5177"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-14",
+      "accession": "20260514-5176",
+      "docket": "OR25-4-000",
+      "filer": "FERC Trial Staff",
+      "filing": "Privileged staff exhibits in the OR25-4 Pembina/McComb pipeline rate proceeding.",
+      "counties": [
+        "Pike",
+        "Mississippi"
+      ],
+      "keywords": [
+        "natural gas pipeline",
+        "pipeline infrastructure",
+        "McComb",
+        "trial testimony",
+        "privileged component"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260514-5176"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-14",
+      "accession": "20260514-5175",
+      "docket": "OR25-4-000",
+      "filer": "FERC Trial Staff",
+      "filing": "Staff direct testimony cover letter/package in the OR25-4 Pembina/McComb pipeline rate proceeding.",
+      "counties": [
+        "Pike",
+        "Mississippi"
+      ],
+      "keywords": [
+        "natural gas pipeline",
+        "pipeline infrastructure",
+        "McComb",
+        "trial testimony"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260514-5175"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-14",
+      "accession": "20260514-5174",
+      "docket": "OR25-4-000",
+      "filer": "FERC Trial Staff / proceeding witness",
+      "filing": "Privileged Poore testimony/exhibits in the OR25-4 Pembina/McComb pipeline rate proceeding.",
+      "counties": [
+        "Pike",
+        "Mississippi"
+      ],
+      "keywords": [
+        "natural gas pipeline",
+        "pipeline infrastructure",
+        "McComb",
+        "trial testimony",
+        "privileged component"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260514-5174"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-14",
+      "accession": "20260514-5173",
+      "docket": "OR25-4-000",
+      "filer": "FERC Trial Staff / proceeding witness",
+      "filing": "Public Poore witness testimony in the OR25-4 Pembina/McComb pipeline rate proceeding.",
+      "counties": [
+        "Pike",
+        "Mississippi"
+      ],
+      "keywords": [
+        "natural gas pipeline",
+        "pipeline infrastructure",
+        "McComb",
+        "trial testimony"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260514-5173"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-14",
+      "accession": "20260514-5169",
+      "docket": "OR25-4-000",
+      "filer": "FERC Trial Staff / proceeding witness",
+      "filing": "Privileged McComb witness testimony/exhibits in the OR25-4 Pembina/McComb pipeline rate proceeding.",
+      "counties": [
+        "Pike",
+        "Mississippi"
+      ],
+      "keywords": [
+        "natural gas pipeline",
+        "pipeline infrastructure",
+        "McComb",
+        "trial testimony",
+        "privileged component"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260514-5169"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-14",
+      "accession": "20260514-5168",
+      "docket": "OR25-4-000",
+      "filer": "FERC Trial Staff / proceeding witness",
+      "filing": "Public McComb witness direct/answering testimony in the OR25-4 Pembina/McComb pipeline rate proceeding.",
+      "counties": [
+        "Pike",
+        "Mississippi"
+      ],
+      "keywords": [
+        "natural gas pipeline",
+        "pipeline infrastructure",
+        "McComb",
+        "trial testimony"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260514-5168"
+    },
+    {
       "is_new": false,
       "filed_date": "2026-05-14",
       "accession": "20260514-5033",
@@ -295,6 +577,48 @@ window.FERC_DATA = {
       "deadline": null,
       "deadline_type": "",
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260514-5033"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-14",
+      "accession": "20260514-3027",
+      "docket": "ER26-1935-000",
+      "filer": "FERC",
+      "filing": "FERC issuance/order concerning Entergy Mississippi transmission tariff filing under ER26-1935.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "Entergy Mississippi",
+        "transmission",
+        "tariff",
+        "interconnection"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260514-3027"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-13",
+      "accession": "20260513-5063",
+      "docket": "CP26-17-000",
+      "filer": "Leaf River Energy Center, LLC",
+      "filing": "Final response filing for the Leaf River Capacity Expansion Project.",
+      "counties": [
+        "Smith",
+        "Perry",
+        "Mississippi"
+      ],
+      "keywords": [
+        "natural gas pipeline",
+        "natural gas storage",
+        "Leaf River Capacity Expansion",
+        "response to data request"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260513-5063"
     },
     {
       "is_new": false,
@@ -338,6 +662,26 @@ window.FERC_DATA = {
       "deadline": null,
       "deadline_type": "",
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260513-5055"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-13",
+      "accession": "20260513-3038",
+      "docket": "ER17-318-004 / EC26-92-000 / EC26-93-000 / ER10-1107-012",
+      "filer": "FERC",
+      "filing": "FERC confirmation notice for Entergy Corporation merger/acquisition proceedings affecting Entergy Mississippi and affiliate operating companies.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "Entergy Mississippi",
+        "corporate restructuring",
+        "transmission",
+        "utility infrastructure"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260513-3038"
     },
     {
       "is_new": false,
