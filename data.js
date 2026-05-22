@@ -1,10 +1,179 @@
 window.FERC_DATA = {
-  "last_checked": "2026-05-21T07:02:00-05:00",
+  "last_checked": "2026-05-22T07:00:00-05:00",
   "check_status": "ok",
-  "since_last_check": 8,
+  "since_last_check": 14,
   "rows": [
     {
       "is_new": true,
+      "filed_date": "2026-05-21",
+      "accession": "20260521-5141",
+      "docket": "ER26-2389-000",
+      "filer": "MISO Transmission Owners",
+      "filing": "Motion to intervene of MISO Transmission Owners.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "MISO",
+        "transmission owners",
+        "interconnection",
+        "transmission",
+        "intervention"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260521-5141"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-21",
+      "accession": "20260521-5081",
+      "docket": "IS26-275-000",
+      "filer": "Mid Valley Pipeline Company LLC",
+      "filing": "Tariff filing per 18 C.F.R. 342.3, Index filing to be effective July 1, 2026.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "pipeline infrastructure",
+        "tariff filing",
+        "interstate pipeline",
+        "rate filing"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260521-5081"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-21",
+      "accession": "20260521-5079",
+      "docket": "CP25-547-000 / CP25-549-000",
+      "filer": "U.S. Department of the Interior, Office of Environmental Policy and Compliance",
+      "filing": "Comments on the Draft Environmental Impact Statement for the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Attala",
+        "Mississippi"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "natural gas pipeline",
+        "certificate application",
+        "Draft EIS comments",
+        "government agency submittal"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260521-5079"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-21",
+      "accession": "20260521-5024",
+      "docket": "P-15417-001",
+      "filer": "Agilitas Energy, Inc. on behalf of Aberdeen Hydro AE, LLC",
+      "filing": "Response to FERC's May 19, 2026 additional information request for the Aberdeen Hydroelectric Project preliminary permit application.",
+      "counties": [
+        "Monroe",
+        "Mississippi"
+      ],
+      "keywords": [
+        "Aberdeen Hydroelectric Project",
+        "resource development",
+        "Tombigbee River",
+        "additional information response",
+        "preliminary permit"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260521-5024"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-21",
+      "accession": "20260521-3112",
+      "docket": "CP25-514-000",
+      "filer": "FERC Staff",
+      "filing": "Memo summarizing a May 18, 2026 telephone/electronic meeting between FERC staff and Tennessee Gas Pipeline Company, L.L.C. regarding procedural issues for the Mississippi Crossing Project.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "Mississippi Crossing",
+        "natural gas pipeline",
+        "certificate application",
+        "FERC memo",
+        "procedural meeting"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260521-3112"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-21",
+      "accession": "20260521-3046",
+      "docket": "ER22-24-004",
+      "filer": "FERC",
+      "filing": "Opinion No. 593-A, order addressing arguments raised on rehearing regarding System Energy Resources, Inc.",
+      "counties": [
+        "Claiborne",
+        "Mississippi"
+      ],
+      "keywords": [
+        "System Energy Resources",
+        "Grand Gulf",
+        "Entergy Mississippi",
+        "generation infrastructure",
+        "Commission order"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260521-3046"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-21",
+      "accession": "20260521-3038",
+      "docket": "ER26-2233-000",
+      "filer": "FERC Staff",
+      "filing": "Delegated letter order accepting Mississippi Power Company et al. notice of termination of a Certificate of Concurrence related to an Enhanced Reliability Upgrade Agreement with Southern Power Company.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "Mississippi Power Company",
+        "transmission upgrades",
+        "reliability upgrade",
+        "delegated order"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260521-3038"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-20",
+      "accession": "20260520-8013",
+      "docket": "",
+      "filer": "Enable Mississippi River Transmission, LLC",
+      "filing": "FERC Form 3-Q Gas report for 2026/Q1.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "natural gas pipeline",
+        "pipeline infrastructure",
+        "Form 3-Q",
+        "quarterly report",
+        "gas company"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260520-8013"
+    },
+    {
+      "is_new": false,
       "filed_date": "2026-05-20",
       "accession": "20260520-5209",
       "docket": "ER26-2373-000 / ER26-2374-000",
@@ -26,7 +195,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260520-5209"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-20",
       "accession": "20260520-5208",
       "docket": "ER26-2374-000 / ER26-2373-000",
@@ -48,7 +217,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260520-5208"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-20",
       "accession": "20260520-5161",
       "docket": "CP25-547-000 / CP25-549-000",
@@ -79,7 +248,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260520-5161"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-20",
       "accession": "20260520-5158",
       "docket": "CP25-219-000",
@@ -102,7 +271,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260520-5158"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-20",
       "accession": "20260520-5157",
       "docket": "CP25-219-000",
@@ -124,6 +293,72 @@ window.FERC_DATA = {
     },
     {
       "is_new": true,
+      "filed_date": "2026-05-20",
+      "accession": "20260520-5122",
+      "docket": "ER26-2448-000",
+      "filer": "Cooperative Energy",
+      "filing": "Motion to intervene of Cooperative Energy.",
+      "counties": [
+        "Forrest",
+        "Mississippi"
+      ],
+      "keywords": [
+        "Cooperative Energy",
+        "transmission",
+        "interconnection",
+        "Mississippi electric cooperative",
+        "intervention"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260520-5122"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-20",
+      "accession": "20260520-5119",
+      "docket": "ER26-2450-000",
+      "filer": "Cooperative Energy",
+      "filing": "Motion to intervene of Cooperative Energy.",
+      "counties": [
+        "Forrest",
+        "Mississippi"
+      ],
+      "keywords": [
+        "Cooperative Energy",
+        "transmission",
+        "interconnection",
+        "Mississippi electric cooperative",
+        "intervention"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260520-5119"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-20",
+      "accession": "20260520-5100",
+      "docket": "RM26-4-000",
+      "filer": "Georgia Power Company et al.",
+      "filing": "Supplemental comments on timely and cost-effective integration of large-load customers to support growth and economic development.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "large load",
+        "industrial load growth",
+        "data center",
+        "AI infrastructure",
+        "Mississippi Power",
+        "Southern Companies"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260520-5100"
+    },
+    {
+      "is_new": false,
       "filed_date": "2026-05-20",
       "accession": "20260520-3057",
       "docket": "CP25-517-000",
@@ -233,6 +468,50 @@ window.FERC_DATA = {
     },
     {
       "is_new": true,
+      "filed_date": "2026-05-19",
+      "accession": "20260519-3063",
+      "docket": "P-15416-001",
+      "filer": "FERC Staff",
+      "filing": "Letter requesting additional information regarding the preliminary permit application for the proposed Aberdeen Hydroelectric Project submitted by Millwood Hydro AE, LLC.",
+      "counties": [
+        "Monroe",
+        "Mississippi"
+      ],
+      "keywords": [
+        "Aberdeen Hydroelectric Project",
+        "resource development",
+        "Tombigbee River",
+        "additional information request",
+        "preliminary permit"
+      ],
+      "deadline": "2026-06-18",
+      "deadline_type": "Applicant additional information response deadline, within 30 days of 2026-05-19 letter",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260519-3063"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-19",
+      "accession": "20260519-3062",
+      "docket": "P-15417-001",
+      "filer": "FERC Staff",
+      "filing": "Letter requesting additional information regarding the preliminary permit application for the proposed Aberdeen Hydroelectric Project.",
+      "counties": [
+        "Monroe",
+        "Mississippi"
+      ],
+      "keywords": [
+        "Aberdeen Hydroelectric Project",
+        "resource development",
+        "Tombigbee River",
+        "additional information request",
+        "preliminary permit"
+      ],
+      "deadline": "2026-06-18",
+      "deadline_type": "Applicant additional information response deadline, within 30 days of 2026-05-19 letter",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260519-3062"
+    },
+    {
+      "is_new": false,
       "filed_date": "2026-05-18",
       "accession": "20260518-5118",
       "docket": "CP24-80-000",
@@ -296,7 +575,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260518-0003"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-15",
       "accession": "20260515-5247",
       "docket": "CP25-219-000",
@@ -360,6 +639,28 @@ window.FERC_DATA = {
       "deadline": null,
       "deadline_type": "",
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5235"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-15",
+      "accession": "20260515-5217",
+      "docket": "QF17-1197-005",
+      "filer": "Chickasaw Solar, LLC",
+      "filing": "Form 556 qualifying facility recertification for Chickasaw Solar, LLC.",
+      "counties": [
+        "Chickasaw",
+        "Mississippi"
+      ],
+      "keywords": [
+        "solar",
+        "solar generation",
+        "photovoltaic",
+        "qualifying facility",
+        "PURPA"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260515-5217"
     },
     {
       "is_new": false,
