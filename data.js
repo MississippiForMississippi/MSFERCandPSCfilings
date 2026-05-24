@@ -1,10 +1,10 @@
 window.FERC_DATA = {
-  "last_checked": "2026-05-23T07:01:00-05:00",
+  "last_checked": "2026-05-24T07:00:00-05:00",
   "check_status": "ok",
-  "since_last_check": 14,
+  "since_last_check": 4,
   "rows": [
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-22",
       "accession": "20260522-8007",
       "docket": "",
@@ -25,7 +25,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260522-8007"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-22",
       "accession": "20260522-5264",
       "docket": "CP25-514-000 / CP25-517-000",
@@ -50,6 +50,30 @@ window.FERC_DATA = {
     {
       "is_new": true,
       "filed_date": "2026-05-22",
+      "accession": "20260522-5254",
+      "docket": "CP25-517-000",
+      "filer": "Southern Natural Gas Company, L.L.C. et al.",
+      "filing": "Public companion response to FERC staff May 15, 2026 data request for the South System Expansion 4 Project.",
+      "counties": [
+        "Attala",
+        "Mississippi"
+      ],
+      "keywords": [
+        "SSE4",
+        "South System Expansion 4",
+        "natural gas pipeline",
+        "compressor station",
+        "certificate application",
+        "data request response",
+        "public component"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260522-5254"
+    },
+    {
+      "is_new": false,
+      "filed_date": "2026-05-22",
       "accession": "20260522-5253",
       "docket": "CP25-517-000",
       "filer": "Southern Natural Gas Company, L.L.C. et al.",
@@ -71,7 +95,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260522-5253"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-22",
       "accession": "20260522-5244",
       "docket": "CP25-547-000 / CP25-549-000",
@@ -93,7 +117,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260522-5244"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-22",
       "accession": "20260522-5203",
       "docket": "CP25-514-000 / CP25-517-000",
@@ -115,7 +139,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260522-5203"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-22",
       "accession": "20260522-5185",
       "docket": "CP25-547-000",
@@ -136,7 +160,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260522-5185"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-22",
       "accession": "20260522-5184",
       "docket": "CP26-30-000",
@@ -157,7 +181,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260522-5184"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-22",
       "accession": "20260522-5170",
       "docket": "CP25-547-000 / CP25-549-000",
@@ -178,7 +202,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260522-5170"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-22",
       "accession": "20260522-5162",
       "docket": "CP25-514-000",
@@ -199,7 +223,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260522-5162"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-22",
       "accession": "20260522-5161",
       "docket": "CP25-514-000",
@@ -220,7 +244,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260522-5161"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-22",
       "accession": "20260522-5102",
       "docket": "CP25-514-000",
@@ -243,6 +267,29 @@ window.FERC_DATA = {
     {
       "is_new": true,
       "filed_date": "2026-05-22",
+      "accession": "20260522-5079",
+      "docket": "CP25-547-000 / CP25-549-000",
+      "filer": "Cellular South, Inc. dba C Spire",
+      "filing": "Comments on the Draft Environmental Impact Statement for the Kosciusko Junction Pipeline Project, raising Mississippi telecommunications infrastructure and easement concerns.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "natural gas pipeline",
+        "certificate application",
+        "Draft EIS",
+        "public comment",
+        "telecommunications infrastructure",
+        "easement"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260522-5079"
+    },
+    {
+      "is_new": false,
+      "filed_date": "2026-05-22",
       "accession": "20260522-5046",
       "docket": "CP25-514-000",
       "filer": "Tennessee Gas Pipeline Company, L.L.C.",
@@ -262,7 +309,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260522-5046"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-22",
       "accession": "20260522-5045",
       "docket": "CP25-514-000",
@@ -283,7 +330,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260522-5045"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-21",
       "accession": "20260521-5193",
       "docket": "ER26-2389-000",
@@ -323,6 +370,29 @@ window.FERC_DATA = {
       "deadline": null,
       "deadline_type": "",
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260521-5141"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-21",
+      "accession": "20260521-5096",
+      "docket": "CP25-517-000",
+      "filer": "JoEllen Sefton",
+      "filing": "Public comment on the South System Expansion 4 Project in Mississippi.",
+      "counties": [
+        "Attala",
+        "Mississippi"
+      ],
+      "keywords": [
+        "SSE4",
+        "South System Expansion 4",
+        "natural gas pipeline",
+        "compressor station",
+        "public comment",
+        "certificate application"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260521-5096"
     },
     {
       "is_new": false,
@@ -720,6 +790,29 @@ window.FERC_DATA = {
       "deadline": null,
       "deadline_type": "",
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260519-5166"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-19",
+      "accession": "20260519-5153",
+      "docket": "EL26-73-000",
+      "filer": "Louisiana Public Service Commission",
+      "filing": "Complaint of Louisiana Public Service Commission against Entergy Corporation and affiliates regarding a power purchase agreement and Entergy Texas 2009 Form 1 filings; included as Entergy-related utility monitoring item with potential affiliate relevance to Entergy Mississippi.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "Entergy",
+        "Entergy Mississippi",
+        "electric utility",
+        "power purchase agreement",
+        "Form 1",
+        "complaint",
+        "utility rates"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260519-5153"
     },
     {
       "is_new": false,
