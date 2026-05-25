@@ -1,7 +1,7 @@
 window.FERC_DATA = {
-  "last_checked": "2026-05-24T07:00:00-05:00",
+  "last_checked": "2026-05-25T07:01:00-05:00",
   "check_status": "ok",
-  "since_last_check": 4,
+  "since_last_check": 0,
   "rows": [
     {
       "is_new": false,
@@ -48,7 +48,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260522-5264"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-22",
       "accession": "20260522-5254",
       "docket": "CP25-517-000",
@@ -265,7 +265,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260522-5102"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-22",
       "accession": "20260522-5079",
       "docket": "CP25-547-000 / CP25-549-000",
@@ -372,7 +372,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260521-5141"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-21",
       "accession": "20260521-5096",
       "docket": "CP25-517-000",
@@ -792,7 +792,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260519-5166"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-19",
       "accession": "20260519-5153",
       "docket": "EL26-73-000",
