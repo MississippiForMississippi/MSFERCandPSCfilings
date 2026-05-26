@@ -1,5 +1,5 @@
 window.FERC_DATA = {
-  "last_checked": "2026-05-25T07:01:00-05:00",
+  "last_checked": "2026-05-26T07:00:00-05:00",
   "check_status": "ok",
   "since_last_check": 0,
   "rows": [
