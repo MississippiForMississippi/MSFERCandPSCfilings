@@ -217,6 +217,76 @@ a:focus-visible {
 .card.has-new          { border-left-color: var(--amber); background: #f7ecc8; }
 .card.has-deadlines    { border-left-color: var(--rust); }
 
+/* ==================== PSC RECORDS ==================== */
+.psc-records {
+  margin: 0 0 28px;
+  padding: 18px;
+  background: #eef3df;
+  border: 1px solid #c9d39d;
+  border-left: 4px solid var(--moss);
+}
+.section-head--psc {
+  border-bottom-color: rgba(79,91,42,0.28);
+  margin-bottom: 16px;
+}
+.psc-records__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+.psc-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #fffaef;
+  border: 1px solid #d7dfb6;
+  padding: 14px;
+}
+.psc-card__eyebrow {
+  color: var(--moss);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.psc-card__title {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.25;
+  color: var(--ink);
+}
+.psc-card__text {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.84rem;
+}
+.psc-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: auto;
+}
+.psc-card__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  width: fit-content;
+  margin-top: auto;
+  padding: 7px 10px;
+  border: 1px solid #b7c383;
+  background: #f6f1e3;
+  color: var(--kudzu);
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+.psc-card__link:hover {
+  color: var(--ink);
+  border-color: var(--ink);
+}
+
 /* ==================== DEADLINE WATCH ==================== */
 .deadline-watch[hidden] { display: none !important; }
 .deadline-watch {
