@@ -108,10 +108,14 @@ a:focus-visible {
 }
 .brand:hover { color: var(--clay-deep); }
 
-.brand__mark {
-  width: 44px;
-  height: 44px;
-  color: var(--clay-deep);
+.brand__logo {
+  width: clamp(64px, 8vw, 88px);
+  height: clamp(64px, 8vw, 88px);
+  object-fit: contain;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid rgba(94,58,31,0.18);
+  box-shadow: 0 1px 0 rgba(28,24,16,0.05);
   flex: none;
 }
 
@@ -152,6 +156,16 @@ a:focus-visible {
   margin: 22px 0 0;
   max-width: 78ch;
   font-size: 1rem;
+  color: var(--ink-soft);
+}
+.masthead__disclaimer {
+  margin: 14px 0 0;
+  max-width: 78ch;
+  padding: 10px 12px;
+  background: rgba(255,250,239,0.72);
+  border: 1px solid var(--paper-edge);
+  border-left: 3px solid var(--moss);
+  font-size: 0.9rem;
   color: var(--ink-soft);
 }
 
