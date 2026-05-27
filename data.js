@@ -1,8 +1,279 @@
 window.FERC_DATA = {
-  "last_checked": "2026-05-26T07:00:00-05:00",
+  "last_checked": "2026-05-27T07:00:00-05:00",
   "check_status": "ok",
-  "since_last_check": 0,
+  "since_last_check": 14,
   "rows": [
+    {
+      "is_new": true,
+      "filed_date": "2026-05-27",
+      "accession": "20260527-5004",
+      "docket": "CP25-547-000",
+      "filer": "Marla A Nottingham",
+      "filing": "Public comment in the Kosciusko Junction Pipeline Project docket, submitted 05/26/2026.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "natural gas pipeline",
+        "Draft EIS",
+        "public comment",
+        "CP25-547"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260527-5004"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-26",
+      "accession": "20260526-8009",
+      "docket": "",
+      "filer": "Tennessee Valley Authority",
+      "filing": "FERC Form 714 annual electric control and planning area report for 2025/Q4, surfaced by Mississippi keyword search.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "Tennessee Valley Authority",
+        "Form 714",
+        "electric planning",
+        "load forecast",
+        "planning area",
+        "load growth monitoring"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-8009"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-26",
+      "accession": "20260526-5238",
+      "docket": "CP25-547-000 / CP25-549-000",
+      "filer": "The National Black Environmental Justice Network",
+      "filing": "Comments on the Draft Environmental Impact Statement for the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "natural gas pipeline",
+        "Draft EIS",
+        "environmental justice",
+        "public comment",
+        "CP25-547",
+        "CP25-549"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-5238"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-26",
+      "accession": "20260526-5229",
+      "docket": "CP25-547-000 / CP25-549-000",
+      "filer": "Sierra Club et al.",
+      "filing": "Joint comments on the Draft Environmental Impact Statement for the Kosciusko Junction Pipeline Project, with exhibits.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "natural gas pipeline",
+        "Draft EIS",
+        "public comment",
+        "Sierra Club",
+        "CP25-547",
+        "CP25-549"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-5229"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-26",
+      "accession": "20260526-5199",
+      "docket": "CP25-547-000",
+      "filer": "Center for Constitutional Rights",
+      "filing": "Comments in opposition to the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "natural gas pipeline",
+        "Draft EIS",
+        "public comment",
+        "opposition",
+        "CP25-547"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-5199"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-26",
+      "accession": "20260526-5193",
+      "docket": "CP25-547-000 / CP25-549-000",
+      "filer": "Deep South Center for Environmental Justice",
+      "filing": "Motion to intervene out of time and comments on the Draft Environmental Impact Statement for the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "natural gas pipeline",
+        "Draft EIS",
+        "motion to intervene",
+        "public comment",
+        "environmental justice",
+        "CP25-547",
+        "CP25-549"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-5193"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-26",
+      "accession": "20260526-5151",
+      "docket": "ER26-1564-000",
+      "filer": "Entergy Arkansas, LLC et al.",
+      "filing": "Request for extension of time by Entergy operating companies in an ER26-1564 proceeding surfaced by the Mississippi keyword search.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "Entergy",
+        "Entergy Mississippi",
+        "electric utility",
+        "MISO",
+        "request for extension",
+        "load growth monitoring"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-5151"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-26",
+      "accession": "20260526-5143",
+      "docket": "EL26-74-000",
+      "filer": "Cooperative Energy",
+      "filing": "Doc-less motion to intervene of Cooperative Energy in EL26-74, the Entergy Texas/MISO/SPP JTIQ complaint docket.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "Cooperative Energy",
+        "MISO",
+        "SPP",
+        "JTIQ",
+        "interconnection",
+        "motion to intervene",
+        "transmission",
+        "load growth monitoring"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-5143"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-26",
+      "accession": "20260526-5052",
+      "docket": "CP25-547-000 / CP25-549-000",
+      "filer": "Climate Center for Energy and Environmental Justice",
+      "filing": "Comments on the Draft Environmental Impact Statement for the Kosciusko Junction Pipeline Project, with section exhibits.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "natural gas pipeline",
+        "Draft EIS",
+        "public comment",
+        "environmental justice",
+        "CP25-547",
+        "CP25-549"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-5052"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-26",
+      "accession": "20260526-5015",
+      "docket": "CP25-547-000",
+      "filer": "Lea Campbell",
+      "filing": "Public comment in the Kosciusko Junction Pipeline Project docket, submitted 05/25/2026.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "natural gas pipeline",
+        "Draft EIS",
+        "public comment",
+        "CP25-547"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-5015"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-26",
+      "accession": "20260526-3022",
+      "docket": "CP26-525-000",
+      "filer": "FERC",
+      "filing": "Notice of request under blanket authorization and establishing intervention/protest deadline for Monroe Gas Storage Company, LLC Wheeling Gas Optimization Project. Deadline date was not visible in the search result row.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "Monroe Gas Storage",
+        "natural gas storage",
+        "gas storage",
+        "blanket authorization",
+        "intervention deadline",
+        "protest deadline",
+        "CP26-525"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-3022"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-26",
+      "accession": "20260526-3001",
+      "docket": "ER26-1988-000",
+      "filer": "FERC",
+      "filing": "Letter order accepting Midcontinent Independent System Operator, Inc. filing of an Expedited Generator Interconnection Agreement with Entergy Mississippi, LLC.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "Entergy Mississippi",
+        "MISO",
+        "generator interconnection",
+        "interconnection agreement",
+        "transmission",
+        "load growth",
+        "delegated order"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-3001"
+    },
     {
       "is_new": false,
       "filed_date": "2026-05-22",
@@ -23,6 +294,51 @@ window.FERC_DATA = {
       "deadline": null,
       "deadline_type": "",
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260522-8007"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-22",
+      "accession": "20260522-5277",
+      "docket": "CP25-517-000",
+      "filer": "Southern Natural Gas Company, L.L.C. et al.",
+      "filing": "Privileged document component of response to FERC 05/20/2026 environmental information request for the South System Expansion 4 Project; includes SHPO communication attachments.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "SSE4",
+        "South System Expansion 4",
+        "natural gas pipeline",
+        "environmental information request",
+        "SHPO",
+        "privileged component",
+        "CP25-517"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260522-5277"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-22",
+      "accession": "20260522-5276",
+      "docket": "CP25-517-000",
+      "filer": "Southern Natural Gas Company, L.L.C. et al.",
+      "filing": "Public document component of response to FERC 05/20/2026 environmental information request for the South System Expansion 4 Project.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "SSE4",
+        "South System Expansion 4",
+        "natural gas pipeline",
+        "environmental information request",
+        "public component",
+        "CP25-517"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260522-5276"
     },
     {
       "is_new": false,
