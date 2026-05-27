@@ -86,6 +86,16 @@
     return Math.round((d.getTime() - nowUtc) / 86400000);
   }
 
+  function filingUrl(row) {
+    return row && row.accession
+      ? "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=" + encodeURIComponent(row.accession)
+      : (row && isSafeHttpUrl(row.link) ? row.link : null);
+  }
+
+  function publicCommentUrl() {
+    return "https://ferconline.ferc.gov/quickcomment.aspx";
+  }
+
   /* ---------- render ---------- */
   function emptyRowHtml(selectedCounty) {
     var title = selectedCounty
@@ -145,9 +155,7 @@
   }
 
   function renderActionLink(row) {
-    var url = row.accession
-      ? "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=" + encodeURIComponent(row.accession)
-      : (isSafeHttpUrl(row.link) ? row.link : null);
+    var url = filingUrl(row);
     if (!url) return '<span class="deadline--none">—</span>';
     return '<a class="action-link" href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">View filing</a>';
   }
@@ -268,6 +276,60 @@
     }
   }
 
+  function renderDeadlineWatch(rows) {
+    var section = $("deadline-watch");
+    var list = $("deadline-watch-list");
+    if (!section || !list) return;
+
+    var deadlineRows = (rows || [])
+      .filter(function (row) {
+        var days = daysUntil(row.deadline);
+        return row.deadline && days !== null && days >= 0;
+      })
+      .sort(function (a, b) {
+        var ad = new Date(a.deadline).getTime();
+        var bd = new Date(b.deadline).getTime();
+        if (ad !== bd) return ad - bd;
+        return String(a.docket || "").localeCompare(String(b.docket || ""));
+      });
+
+    if (!deadlineRows.length) {
+      section.hidden = true;
+      list.innerHTML = "";
+      return;
+    }
+
+    section.hidden = false;
+    list.innerHTML = deadlineRows.map(function (row) {
+      var days = daysUntil(row.deadline);
+      var dayLabel = days === 0 ? "Due today"
+        : days === 1 ? "Due tomorrow"
+        : "Due in " + days + " days";
+      var fercUrl = filingUrl(row);
+      var commentUrl = publicCommentUrl();
+      return ''
+        + '<article class="deadline-card">'
+        +   '<div class="deadline-card__date">'
+        +     '<span class="deadline-card__month">' + escapeHtml(formatDate(row.deadline)) + '</span>'
+        +     '<span class="deadline-card__days">' + escapeHtml(dayLabel) + '</span>'
+        +   '</div>'
+        +   '<div class="deadline-card__body">'
+        +     '<div class="deadline-card__meta">'
+        +       '<span class="deadline-card__docket">' + escapeHtml(row.docket || "No docket") + '</span>'
+        +       '<span class="deadline-card__accession">' + escapeHtml(row.accession || "") + '</span>'
+        +     '</div>'
+        +     '<h3 class="deadline-card__title">' + escapeHtml(row.deadline_type || "FERC deadline") + '</h3>'
+        +     '<p class="deadline-card__text">' + escapeHtml(row.filing || "") + '</p>'
+        +     '<div class="deadline-card__actions">'
+        +       (fercUrl ? '<a class="deadline-card__link" href="' + escapeHtml(fercUrl) + '" target="_blank" rel="noopener noreferrer">View FERC filing</a>' : '')
+        +       '<a class="deadline-card__link deadline-card__link--primary" href="' + escapeHtml(commentUrl) + '" target="_blank" rel="noopener noreferrer">Submit public comment</a>'
+        +     '</div>'
+        +     '<p class="deadline-card__hint">Use docket ' + escapeHtml(row.docket || "shown in the filing") + ' when FERC eComment asks for the docket number.</p>'
+        +   '</div>'
+        + '</article>';
+    }).join("");
+  }
+
   /* ---------- overflow detection ----------
      Adds .has-overflow when the table is wider than its wrapper, and toggles
      .is-scrolled-end when the user has scrolled to the right edge. Drives a
@@ -297,6 +359,7 @@
       data = { last_checked: null, since_last_check: 0, rows: [] };
     }
     renderStatus(data);
+    renderDeadlineWatch(data.rows);
     setupCountyFilter(data.rows);
     watchOverflow();
   }
