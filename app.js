@@ -125,10 +125,9 @@
   }
 
   function renderActionLink(row) {
-    var url = isSafeHttpUrl(row.link) ? row.link
-      : (row.accession
-          ? "https://elibrary.ferc.gov/eLibrary/filelist?accession_number=" + encodeURIComponent(row.accession)
-          : null);
+    var url = row.accession
+      ? "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=" + encodeURIComponent(row.accession)
+      : (isSafeHttpUrl(row.link) ? row.link : null);
     if (!url) return '<span class="deadline--none">—</span>';
     return '<a class="action-link" href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">View filing</a>';
   }
