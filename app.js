@@ -7,6 +7,20 @@
   "use strict";
 
   var WATCHED_COUNTIES = 82;
+  var MISSISSIPPI_COUNTIES = [
+    "Adams","Alcorn","Amite","Attala","Benton","Bolivar","Calhoun","Carroll",
+    "Chickasaw","Choctaw","Claiborne","Clarke","Clay","Coahoma","Copiah",
+    "Covington","DeSoto","Forrest","Franklin","George","Greene","Grenada",
+    "Hancock","Harrison","Hinds","Holmes","Humphreys","Issaquena","Itawamba",
+    "Jackson","Jasper","Jefferson","Jefferson Davis","Jones","Kemper",
+    "Lafayette","Lamar","Lauderdale","Lawrence","Leake","Lee","Leflore",
+    "Lincoln","Lowndes","Madison","Marion","Marshall","Monroe","Montgomery",
+    "Neshoba","Newton","Noxubee","Oktibbeha","Panola","Pearl River","Perry",
+    "Pike","Pontotoc","Prentiss","Quitman","Rankin","Scott","Sharkey",
+    "Simpson","Smith","Stone","Sunflower","Tallahatchie","Tate","Tippah",
+    "Tishomingo","Tunica","Union","Walthall","Warren","Washington","Wayne",
+    "Webster","Wilkinson","Winston","Yalobusha","Yazoo"
+  ];
 
   /* ---------- helpers ---------- */
   function $(id) { return document.getElementById(id); }
@@ -73,7 +87,13 @@
   }
 
   /* ---------- render ---------- */
-  function emptyRowHtml() {
+  function emptyRowHtml(selectedCounty) {
+    var title = selectedCounty
+      ? "No filings currently tagged to " + selectedCounty + " County"
+      : "No relevant new filings captured yet";
+    var hint = selectedCounty
+      ? "Try “All Mississippi filings” to review statewide or county-unspecified filings."
+      : "The next automatic check will update this report.";
     return ''
       + '<tr class="empty-row"><td colspan="8">'
       + '<span class="empty-row__inner">'
@@ -83,8 +103,8 @@
       +     '<line x1="8" y1="13" x2="16" y2="13"/>'
       +     '<line x1="8" y1="16" x2="14" y2="16"/>'
       +   '</svg>'
-      +   '<span class="empty-row__title">No relevant new filings captured yet</span>'
-      +   '<span class="empty-row__hint">The next automatic check will update this report.</span>'
+      +   '<span class="empty-row__title">' + escapeHtml(title) + '</span>'
+      +   '<span class="empty-row__hint">' + escapeHtml(hint) + '</span>'
       + '</span>'
       + '</td></tr>';
   }
@@ -148,14 +168,60 @@
       + '</tr>';
   }
 
-  function renderTable(rows) {
+  function renderTable(rows, selectedCounty) {
     var body = $("filings-body");
     if (!body) return;
     if (!rows || !rows.length) {
-      body.innerHTML = emptyRowHtml();
+      body.innerHTML = emptyRowHtml(selectedCounty);
       return;
     }
     body.innerHTML = rows.map(renderRow).join("");
+  }
+
+  function rowMatchesCounty(row, county) {
+    if (!county) return true;
+    var selected = String(county).trim().toLowerCase();
+    return (row.counties || []).some(function (c) {
+      return String(c).trim().toLowerCase() === selected;
+    });
+  }
+
+  function filteredRows(rows, county) {
+    return (rows || []).filter(function (row) {
+      return rowMatchesCounty(row, county);
+    });
+  }
+
+  function updateFilterCount(totalRows, shownRows, county) {
+    var target = $("county-filter-count");
+    if (!target) return;
+    if (!county) {
+      target.textContent = "Showing all " + totalRows + " filings";
+      return;
+    }
+    var noun = shownRows === 1 ? "filing" : "filings";
+    target.textContent = "Showing " + shownRows + " " + noun + " tagged to " + county + " County";
+  }
+
+  function setupCountyFilter(rows) {
+    var select = $("county-filter");
+    if (!select) return;
+    MISSISSIPPI_COUNTIES.forEach(function (county) {
+      var option = document.createElement("option");
+      option.value = county;
+      option.textContent = county + " County";
+      select.appendChild(option);
+    });
+
+    function applyCountyFilter() {
+      var county = select.value;
+      var nextRows = filteredRows(rows, county);
+      renderTable(nextRows, county);
+      updateFilterCount((rows || []).length, nextRows.length, county);
+    }
+
+    select.addEventListener("change", applyCountyFilter);
+    applyCountyFilter();
   }
 
   function renderStatus(data) {
@@ -231,7 +297,7 @@
       data = { last_checked: null, since_last_check: 0, rows: [] };
     }
     renderStatus(data);
-    renderTable(data.rows);
+    setupCountyFilter(data.rows);
     watchOverflow();
   }
 

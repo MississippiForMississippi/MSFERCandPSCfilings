@@ -90,6 +90,20 @@
       <p class="section-head__sub">Newest first. Rows shaded amber are new since the previous check.</p>
     </div>
 
+    <div class="filter-panel" aria-label="Filter filings by Mississippi county">
+      <label class="filter-panel__label" for="county-filter">Select your county</label>
+      <div class="filter-panel__control">
+        <select class="filter-panel__select" id="county-filter" name="county-filter">
+          <option value="">All Mississippi filings</option>
+        </select>
+        <span class="filter-panel__count" id="county-filter-count" role="status">Showing all filings</span>
+      </div>
+      <p class="filter-panel__hint">
+        County filters show rows that are tagged to that county. Statewide or county-unspecified
+        filings remain under “All Mississippi filings.”
+      </p>
+    </div>
+
     <div class="table-wrap" id="table-wrap" role="region" aria-label="FERC filings table, horizontally scrollable" tabindex="0">
       <table class="filings-table">
         <colgroup>
