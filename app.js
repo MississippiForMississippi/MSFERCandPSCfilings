@@ -86,14 +86,19 @@
     return Math.round((d.getTime() - nowUtc) / 86400000);
   }
 
-  function filingUrl(row) {
-    return row && row.accession
-      ? "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=" + encodeURIComponent(row.accession)
-      : (row && isSafeHttpUrl(row.link) ? row.link : null);
-  }
-
   function publicCommentUrl() {
     return "https://ferconline.ferc.gov/quickcomment.aspx";
+  }
+
+  function isFercAccession(value) {
+    return /^\d{8}-\d{4}$/.test(String(value || "").trim());
+  }
+
+  function filingUrl(row) {
+    if (row && isSafeHttpUrl(row.link) && !isFercAccession(row.accession)) return row.link;
+    return row && isFercAccession(row.accession)
+      ? "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=" + encodeURIComponent(row.accession)
+      : (row && isSafeHttpUrl(row.link) ? row.link : null);
   }
 
   /* ---------- render ---------- */
