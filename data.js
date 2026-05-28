@@ -1,10 +1,116 @@
 window.FERC_DATA = {
-  "last_checked": "2026-05-27T07:00:00-05:00",
+  "last_checked": "2026-05-28T07:01:00-05:00",
   "check_status": "ok",
-  "since_last_check": 14,
+  "since_last_check": 3,
   "rows": [
     {
       "is_new": true,
+      "filed_date": "2026-05-28",
+      "accession": "PSC-2026-06-18-PUBLIC-MEETING-NOTICE",
+      "docket": "June 18, 2026 PSC Public Meeting",
+      "filer": "Mississippi Public Service Commission",
+      "filing": "PSC notice of public meeting on Thursday, June 18, 2026 at 10:00 a.m. in Jackson to consider the proposed Consent Docket for the June Term and discuss matters pending before the Commission; meeting also broadcast by PSC webcast.",
+      "counties": [
+        "Mississippi"
+      ],
+      "keywords": [
+        "PSC",
+        "public meeting",
+        "meeting notice",
+        "consent docket",
+        "agenda",
+        "webcast"
+      ],
+      "deadline": "2026-06-18",
+      "deadline_type": "PSC public meeting date at 10:00 a.m. Central Time",
+      "link": "https://www.psc.ms.gov/sites/default/files/2026-05/NOTICE-PUBLIC-MEETING-6-18-26.pdf"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-28",
+      "accession": "PSC-2026-05-CONSENT-DOCKET",
+      "docket": "May 2026 Consent Docket",
+      "filer": "Mississippi Public Service Commission",
+      "filing": "May 2026 PSC Consent Docket with energy and infrastructure matters including solar certificates, energy storage certificates, pipeline-safety matters, transmission, substation, natural gas conversion, utility audits, and county-specific utility certificate issues.",
+      "counties": [
+        "Mississippi",
+        "Hinds",
+        "Copiah",
+        "Pontotoc",
+        "Lowndes",
+        "Holmes",
+        "Jasper",
+        "Lee",
+        "Union",
+        "Choctaw",
+        "Tishomingo",
+        "Washington",
+        "Tallahatchie",
+        "Jackson",
+        "Alcorn",
+        "Lauderdale"
+      ],
+      "keywords": [
+        "PSC",
+        "consent docket",
+        "solar",
+        "energy storage",
+        "natural gas",
+        "pipeline safety",
+        "transmission",
+        "substation",
+        "Entergy Mississippi",
+        "Mississippi Power"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://www.psc.ms.gov/sites/default/files/2026-04/5-2026-CONSENT-DOCKET.pdf"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-05-28",
+      "accession": "PSC-2026-05-UTILITY-DOCKET",
+      "docket": "May 2026 Utility Docket",
+      "filer": "Mississippi Public Service Commission",
+      "filing": "May 2026 PSC Utility Docket listing pending energy, electric, gas, transmission, solar, storage, substation, cloud-computing, and related utility matters, including Southern Cross Transmission, community solar, Lowndes/Sabre/Shubuta/CPV/Trifecta solar matters, Greer/Wildwood storage, KM Mississippi Intrastate System, Mississippi Power Plant Daniel natural gas conversion, Alcorn County EPA substation, Entergy Mississippi audit, and PRADO AI Industrial declaratory-opinion matter.",
+      "counties": [
+        "Mississippi",
+        "Hinds",
+        "Copiah",
+        "Pontotoc",
+        "Lowndes",
+        "Holmes",
+        "Jasper",
+        "Lee",
+        "Union",
+        "Choctaw",
+        "Tishomingo",
+        "Washington",
+        "Tallahatchie",
+        "Jackson",
+        "Alcorn"
+      ],
+      "keywords": [
+        "PSC",
+        "utility docket",
+        "solar",
+        "energy storage",
+        "natural gas",
+        "pipeline",
+        "transmission",
+        "substation",
+        "data center",
+        "AI industrial",
+        "Entergy Mississippi",
+        "Mississippi Power",
+        "Southern Cross Transmission"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://www.psc.ms.gov/sites/default/files/2026-04/5-2026-UTILITY-DOCKET.pdf"
+    },
+    {
+      "is_new": false,
       "filed_date": "2026-05-27",
       "accession": "20260527-5004",
       "docket": "CP25-547-000",
@@ -25,7 +131,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260527-5004"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-26",
       "accession": "20260526-8009",
       "docket": "",
@@ -47,7 +153,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-8009"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-26",
       "accession": "20260526-5238",
       "docket": "CP25-547-000 / CP25-549-000",
@@ -70,7 +176,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-5238"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-26",
       "accession": "20260526-5229",
       "docket": "CP25-547-000 / CP25-549-000",
@@ -93,7 +199,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-5229"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-26",
       "accession": "20260526-5199",
       "docket": "CP25-547-000",
@@ -115,7 +221,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-5199"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-26",
       "accession": "20260526-5193",
       "docket": "CP25-547-000 / CP25-549-000",
@@ -139,7 +245,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-5193"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-26",
       "accession": "20260526-5151",
       "docket": "ER26-1564-000",
@@ -161,7 +267,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-5151"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-26",
       "accession": "20260526-5143",
       "docket": "EL26-74-000",
@@ -185,7 +291,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-5143"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-26",
       "accession": "20260526-5052",
       "docket": "CP25-547-000 / CP25-549-000",
@@ -208,7 +314,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-5052"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-26",
       "accession": "20260526-5015",
       "docket": "CP25-547-000",
@@ -229,7 +335,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-5015"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-26",
       "accession": "20260526-3022",
       "docket": "CP26-525-000",
@@ -252,7 +358,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260526-3022"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-26",
       "accession": "20260526-3001",
       "docket": "ER26-1988-000",
@@ -296,7 +402,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260522-8007"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-22",
       "accession": "20260522-5277",
       "docket": "CP25-517-000",
@@ -319,7 +425,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/docfamily?accessionnumber=20260522-5277"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-05-22",
       "accession": "20260522-5276",
       "docket": "CP25-517-000",

@@ -1,4 +1,4 @@
-# Mississippi FERC Filing Monitor
+# Mississippi FERC and PSC Filing Monitor
 
 A static, single-page report that summarizes recent FERC eLibrary filings
 relevant to all 82 Mississippi counties. Designed to be embedded

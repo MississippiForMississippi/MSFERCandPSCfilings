@@ -326,7 +326,7 @@
         +     '<h3 class="deadline-card__title">' + escapeHtml(row.deadline_type || "FERC deadline") + '</h3>'
         +     '<p class="deadline-card__text">' + escapeHtml(row.filing || "") + '</p>'
         +     '<div class="deadline-card__actions">'
-        +       (fercUrl ? '<a class="deadline-card__link" href="' + escapeHtml(fercUrl) + '" target="_blank" rel="noopener noreferrer">View FERC filing</a>' : '')
+        +       (fercUrl ? '<a class="deadline-card__link" href="' + escapeHtml(fercUrl) + '" target="_blank" rel="noopener noreferrer">View source record</a>' : '')
         +       '<a class="deadline-card__link deadline-card__link--primary" href="' + escapeHtml(commentUrl) + '" target="_blank" rel="noopener noreferrer">Submit public comment</a>'
         +     '</div>'
         +     '<p class="deadline-card__hint">Use docket ' + escapeHtml(row.docket || "shown in the filing") + ' when FERC eComment asks for the docket number.</p>'
