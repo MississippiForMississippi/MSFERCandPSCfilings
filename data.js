@@ -1,5 +1,5 @@
 window.FERC_DATA = {
-  "last_checked": "2026-05-31T07:00:00-05:00",
+  "last_checked": "2026-06-01T07:01:00-05:00",
   "check_status": "ok",
   "since_last_check": 0,
   "rows": [
@@ -24,47 +24,6 @@ window.FERC_DATA = {
       "deadline": "2026-06-18",
       "deadline_type": "PSC public meeting date at 10:00 a.m. Central Time",
       "link": "https://www.psc.ms.gov/sites/default/files/2026-05/NOTICE-PUBLIC-MEETING-6-18-26.pdf"
-    },
-    {
-      "is_new": false,
-      "filed_date": "2026-05-28",
-      "accession": "PSC-2026-05-CONSENT-DOCKET",
-      "docket": "May 2026 Consent Docket",
-      "filer": "Mississippi Public Service Commission",
-      "filing": "May 2026 PSC Consent Docket with energy and infrastructure matters including solar certificates, energy storage certificates, pipeline-safety matters, transmission, substation, natural gas conversion, utility audits, and county-specific utility certificate issues.",
-      "counties": [
-        "Mississippi",
-        "Hinds",
-        "Copiah",
-        "Pontotoc",
-        "Lowndes",
-        "Holmes",
-        "Jasper",
-        "Lee",
-        "Union",
-        "Choctaw",
-        "Tishomingo",
-        "Washington",
-        "Tallahatchie",
-        "Jackson",
-        "Alcorn",
-        "Lauderdale"
-      ],
-      "keywords": [
-        "PSC",
-        "consent docket",
-        "solar",
-        "energy storage",
-        "natural gas",
-        "pipeline safety",
-        "transmission",
-        "substation",
-        "Entergy Mississippi",
-        "Mississippi Power"
-      ],
-      "deadline": null,
-      "deadline_type": "",
-      "link": "https://www.psc.ms.gov/sites/default/files/2026-04/5-2026-CONSENT-DOCKET.pdf"
     },
     {
       "is_new": false,
@@ -108,6 +67,47 @@ window.FERC_DATA = {
       "deadline": null,
       "deadline_type": "",
       "link": "https://www.psc.ms.gov/sites/default/files/2026-04/5-2026-UTILITY-DOCKET.pdf"
+    },
+    {
+      "is_new": false,
+      "filed_date": "2026-05-28",
+      "accession": "PSC-2026-05-CONSENT-DOCKET",
+      "docket": "May 2026 Consent Docket",
+      "filer": "Mississippi Public Service Commission",
+      "filing": "May 2026 PSC Consent Docket with energy and infrastructure matters including solar certificates, energy storage certificates, pipeline-safety matters, transmission, substation, natural gas conversion, utility audits, and county-specific utility certificate issues.",
+      "counties": [
+        "Mississippi",
+        "Hinds",
+        "Copiah",
+        "Pontotoc",
+        "Lowndes",
+        "Holmes",
+        "Jasper",
+        "Lee",
+        "Union",
+        "Choctaw",
+        "Tishomingo",
+        "Washington",
+        "Tallahatchie",
+        "Jackson",
+        "Alcorn",
+        "Lauderdale"
+      ],
+      "keywords": [
+        "PSC",
+        "consent docket",
+        "solar",
+        "energy storage",
+        "natural gas",
+        "pipeline safety",
+        "transmission",
+        "substation",
+        "Entergy Mississippi",
+        "Mississippi Power"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://www.psc.ms.gov/sites/default/files/2026-04/5-2026-CONSENT-DOCKET.pdf"
     },
     {
       "is_new": false,
@@ -2338,8 +2338,8 @@ window.FERC_DATA = {
         "compressor station",
         "pipeline infrastructure"
       ],
-      "deadline": null,
-      "deadline_type": "",
+      "deadline": "2026-06-08",
+      "deadline_type": "FERC EA comment deadline at 5:00 p.m. Eastern Time",
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260505-5100"
     },
     {
