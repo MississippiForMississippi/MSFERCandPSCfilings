@@ -1,8 +1,96 @@
 window.FERC_DATA = {
-  "last_checked": "2026-06-02T07:00:00-05:00",
+  "last_checked": "2026-06-03T07:29:00-05:00",
   "check_status": "ok",
-  "since_last_check": 26,
+  "since_last_check": 4,
   "rows": [
+    {
+      "is_new": true,
+      "filed_date": "2026-06-03",
+      "accession": "20260603-5008",
+      "docket": "",
+      "filer": "PJM Interconnection, L.L.C.",
+      "filing": "Additional files for the April 7, 2026 FERC Form 715 Annual Transmission Planning and Evaluation Report, including MMWG 2025 Series multiregional modeling data.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "transmission",
+        "transmission planning",
+        "MISO",
+        "PJM",
+        "MMWG",
+        "interconnection studies",
+        "large load"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260603-5008"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-02",
+      "accession": "20260602-5029",
+      "docket": "CP25-547-000 / CP25-549-000",
+      "filer": "Climate Center for Energy and Environmental Justice",
+      "filing": "Comments with corrected Exhibit No. 42 regarding the Draft Environmental Impact Statement for the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Attala"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "natural gas pipeline",
+        "Draft Environmental Impact Statement",
+        "comments",
+        "public comment",
+        "environmental review"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260602-5029"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-02",
+      "accession": "20260602-5021",
+      "docket": "",
+      "filer": "Mississippi Hub, LLC",
+      "filing": "Mississippi Hub Form 567 for CY2025 with Attachments A and B, including system flow diagram materials.",
+      "counties": [
+        "Covington"
+      ],
+      "keywords": [
+        "Mississippi Hub",
+        "natural gas storage",
+        "gas storage",
+        "pipeline infrastructure",
+        "Form 567",
+        "CEII"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260602-5021"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-02",
+      "accession": "20260602-5020",
+      "docket": "",
+      "filer": "Mississippi Hub, LLC",
+      "filing": "Public cover letter for Mississippi Hub, LLC Form 567 annual report for CY2025.",
+      "counties": [
+        "Covington"
+      ],
+      "keywords": [
+        "Mississippi Hub",
+        "natural gas storage",
+        "gas storage",
+        "pipeline infrastructure",
+        "Form 567"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260602-5020"
+    },
     {
       "filed_date": "2026-06-01",
       "accession": "20260601-8002",
@@ -20,7 +108,7 @@ window.FERC_DATA = {
       ],
       "deadline": null,
       "deadline_type": "",
-      "is_new": true,
+      "is_new": false,
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260601-8002"
     },
     {
@@ -41,7 +129,7 @@ window.FERC_DATA = {
       ],
       "deadline": null,
       "deadline_type": "",
-      "is_new": true,
+      "is_new": false,
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260601-5209"
     },
     {
@@ -62,7 +150,7 @@ window.FERC_DATA = {
       ],
       "deadline": null,
       "deadline_type": "",
-      "is_new": true,
+      "is_new": false,
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260601-5062"
     },
     {
@@ -82,7 +170,7 @@ window.FERC_DATA = {
       ],
       "deadline": null,
       "deadline_type": "",
-      "is_new": true,
+      "is_new": false,
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260601-5061"
     },
     {
@@ -102,7 +190,7 @@ window.FERC_DATA = {
       ],
       "deadline": null,
       "deadline_type": "",
-      "is_new": true,
+      "is_new": false,
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260529-8055"
     },
     {
@@ -123,7 +211,7 @@ window.FERC_DATA = {
       ],
       "deadline": null,
       "deadline_type": "",
-      "is_new": true,
+      "is_new": false,
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260529-5239"
     },
     {
@@ -144,7 +232,7 @@ window.FERC_DATA = {
       ],
       "deadline": null,
       "deadline_type": "",
-      "is_new": true,
+      "is_new": false,
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260529-5208"
     },
     {
@@ -164,7 +252,7 @@ window.FERC_DATA = {
       ],
       "deadline": null,
       "deadline_type": "",
-      "is_new": true,
+      "is_new": false,
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260529-5206"
     },
     {
@@ -184,7 +272,7 @@ window.FERC_DATA = {
       ],
       "deadline": "2026-05-22",
       "deadline_type": "Known applicant response deadline around 2026-05-22, preserved unless later official filing changes it",
-      "is_new": true,
+      "is_new": false,
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260529-5032"
     },
     {
@@ -204,7 +292,7 @@ window.FERC_DATA = {
       ],
       "deadline": "2026-05-22",
       "deadline_type": "Known applicant response deadline around 2026-05-22, preserved unless later official filing changes it",
-      "is_new": true,
+      "is_new": false,
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260529-5028"
     },
     {
@@ -224,7 +312,7 @@ window.FERC_DATA = {
       ],
       "deadline": null,
       "deadline_type": "",
-      "is_new": true,
+      "is_new": false,
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260529-3067"
     },
     {
@@ -244,291 +332,8 @@ window.FERC_DATA = {
       ],
       "deadline": null,
       "deadline_type": "",
-      "is_new": true,
+      "is_new": false,
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260529-3000"
-    },
-    {
-      "filed_date": "2026-05-28",
-      "accession": "20260528-8043",
-      "docket": "",
-      "filer": "Entergy Mississippi, LLC",
-      "filing": "Entergy Mississippi, LLC submits FERC Form 3-Q Electric for 2026/Q1.",
-      "counties": [
-        "Mississippi statewide"
-      ],
-      "keywords": [
-        "Entergy Mississippi",
-        "transmission",
-        "utility planning",
-        "large load"
-      ],
-      "deadline": null,
-      "deadline_type": "",
-      "is_new": true,
-      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260528-8043"
-    },
-    {
-      "filed_date": "2026-05-28",
-      "accession": "20260528-5276",
-      "docket": "",
-      "filer": "Columbia Gulf Transmission",
-      "filing": "Form 567 annual report for year ending 2025.",
-      "counties": [
-        "Mississippi statewide"
-      ],
-      "keywords": [
-        "natural gas pipeline",
-        "pipeline infrastructure",
-        "Form 567",
-        "Columbia Gulf"
-      ],
-      "deadline": null,
-      "deadline_type": "",
-      "is_new": true,
-      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260528-5276"
-    },
-    {
-      "filed_date": "2026-05-28",
-      "accession": "20260528-5218",
-      "docket": "",
-      "filer": "Enable Mississippi River Transmission, LLC",
-      "filing": "CEII Form 567 annual report of system flow diagrams and capacity for year ending 2025.",
-      "counties": [
-        "Mississippi statewide"
-      ],
-      "keywords": [
-        "Enable Mississippi River Transmission",
-        "natural gas pipeline",
-        "pipeline infrastructure",
-        "CEII",
-        "Form 567"
-      ],
-      "deadline": null,
-      "deadline_type": "",
-      "is_new": true,
-      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260528-5218"
-    },
-    {
-      "filed_date": "2026-05-28",
-      "accession": "20260528-5217",
-      "docket": "",
-      "filer": "Enable Mississippi River Transmission, LLC",
-      "filing": "Public Form 567 annual report of system flow diagrams and capacity for year ending 2025.",
-      "counties": [
-        "Mississippi statewide"
-      ],
-      "keywords": [
-        "Enable Mississippi River Transmission",
-        "natural gas pipeline",
-        "pipeline infrastructure",
-        "Form 567"
-      ],
-      "deadline": null,
-      "deadline_type": "",
-      "is_new": true,
-      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260528-5217"
-    },
-    {
-      "filed_date": "2026-05-28",
-      "accession": "20260528-5125",
-      "docket": "",
-      "filer": "Midcontinent Express Pipeline LLC",
-      "filing": "Privileged Form 567 annual report for year ending 2025.",
-      "counties": [
-        "Mississippi statewide"
-      ],
-      "keywords": [
-        "Midcontinent Express Pipeline",
-        "natural gas pipeline",
-        "pipeline infrastructure",
-        "Form 567"
-      ],
-      "deadline": null,
-      "deadline_type": "",
-      "is_new": true,
-      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260528-5125"
-    },
-    {
-      "filed_date": "2026-05-28",
-      "accession": "20260528-5115",
-      "docket": "",
-      "filer": "Southern Natural Gas Company",
-      "filing": "CEII Form 567 annual report for year ending 2025.",
-      "counties": [
-        "Mississippi statewide"
-      ],
-      "keywords": [
-        "Southern Natural Gas",
-        "natural gas pipeline",
-        "pipeline infrastructure",
-        "CEII",
-        "Form 567"
-      ],
-      "deadline": null,
-      "deadline_type": "",
-      "is_new": true,
-      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260528-5115"
-    },
-    {
-      "filed_date": "2026-05-28",
-      "accession": "20260528-5013",
-      "docket": "CP25-517-000",
-      "filer": "Southern Natural Gas Company, L.L.C. et al.",
-      "filing": "SSE4 ALGA Spring Plants Survey Report and USFWS Biological Assessment.",
-      "counties": [
-        "Mississippi statewide"
-      ],
-      "keywords": [
-        "SSE4",
-        "natural gas pipeline",
-        "USFWS",
-        "biological assessment",
-        "environmental review"
-      ],
-      "deadline": "2026-05-22",
-      "deadline_type": "Known applicant response deadline around 2026-05-22, preserved unless later official filing changes it",
-      "is_new": true,
-      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260528-5013"
-    },
-    {
-      "filed_date": "2026-05-28",
-      "accession": "20260528-5012",
-      "docket": "CP25-517-000",
-      "filer": "Southern Natural Gas Company, L.L.C. et al.",
-      "filing": "SSE4 EIR responses dated May 26, 2026, including facilities and permit table materials.",
-      "counties": [
-        "Mississippi statewide"
-      ],
-      "keywords": [
-        "SSE4",
-        "natural gas pipeline",
-        "environmental review",
-        "data-request response"
-      ],
-      "deadline": "2026-05-22",
-      "deadline_type": "Known applicant response deadline around 2026-05-22, preserved unless later official filing changes it",
-      "is_new": true,
-      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260528-5012"
-    },
-    {
-      "filed_date": "2026-05-28",
-      "accession": "20260528-3028",
-      "docket": "CP25-219-000",
-      "filer": "Federal Energy Regulatory Commission",
-      "filing": "Order/letter granting notice to proceed to Gulf South Pipeline Company.",
-      "counties": [
-        "Mississippi statewide"
-      ],
-      "keywords": [
-        "Gulf South Pipeline",
-        "natural gas pipeline",
-        "delegated order",
-        "notice to proceed"
-      ],
-      "deadline": null,
-      "deadline_type": "",
-      "is_new": true,
-      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260528-3028"
-    },
-    {
-      "filed_date": "2026-05-27",
-      "accession": "20260527-5299",
-      "docket": "CP25-517-000",
-      "filer": "Southern Natural Gas Company, L.L.C. et al.",
-      "filing": "Response to FERC May 15, 2026 data request for SSE4.",
-      "counties": [
-        "Mississippi statewide"
-      ],
-      "keywords": [
-        "SSE4",
-        "natural gas pipeline",
-        "data-request response",
-        "environmental review"
-      ],
-      "deadline": "2026-05-22",
-      "deadline_type": "Known applicant response deadline around 2026-05-22, preserved unless later official filing changes it",
-      "is_new": true,
-      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260527-5299"
-    },
-    {
-      "filed_date": "2026-05-27",
-      "accession": "20260527-5291",
-      "docket": "",
-      "filer": "Tennessee Gas Pipeline Company, L.L.C.",
-      "filing": "CEII Form 567 annual report for year ending 2025.",
-      "counties": [
-        "Mississippi statewide"
-      ],
-      "keywords": [
-        "Tennessee Gas Pipeline",
-        "natural gas pipeline",
-        "pipeline infrastructure",
-        "CEII",
-        "Form 567"
-      ],
-      "deadline": null,
-      "deadline_type": "",
-      "is_new": true,
-      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260527-5291"
-    },
-    {
-      "filed_date": "2026-05-27",
-      "accession": "20260527-5212",
-      "docket": "AC26-74-000",
-      "filer": "Mississippi Canyon Gas Pipeline, LLC",
-      "filing": "Request for 30-day extension of time to file FERC Form 3 for Q1 2026.",
-      "counties": [
-        "Mississippi statewide"
-      ],
-      "keywords": [
-        "Mississippi Canyon Gas Pipeline",
-        "natural gas pipeline",
-        "extension request"
-      ],
-      "deadline": null,
-      "deadline_type": "",
-      "is_new": true,
-      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260527-5212"
-    },
-    {
-      "filed_date": "2026-05-26",
-      "accession": "20260526-5265",
-      "docket": "QF20-741-007",
-      "filer": "Moonshot Solar, LLC",
-      "filing": "Form 556 qualifying facility application update.",
-      "counties": [
-        "Mississippi statewide"
-      ],
-      "keywords": [
-        "solar",
-        "solar generation",
-        "photovoltaic",
-        "QF"
-      ],
-      "deadline": null,
-      "deadline_type": "",
-      "is_new": true,
-      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260526-5265"
-    },
-    {
-      "filed_date": "2026-05-26",
-      "accession": "20260526-5264",
-      "docket": "QF20-740-006",
-      "filer": "Cane Creek Solar, LLC",
-      "filing": "Form 556 qualifying facility application update.",
-      "counties": [
-        "Mississippi statewide"
-      ],
-      "keywords": [
-        "solar",
-        "solar generation",
-        "photovoltaic",
-        "QF"
-      ],
-      "deadline": null,
-      "deadline_type": "",
-      "is_new": true,
-      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260526-5264"
     },
     {
       "is_new": false,
@@ -637,6 +442,249 @@ window.FERC_DATA = {
       "link": "https://www.psc.ms.gov/sites/default/files/2026-04/5-2026-CONSENT-DOCKET.pdf"
     },
     {
+      "filed_date": "2026-05-28",
+      "accession": "20260528-8043",
+      "docket": "",
+      "filer": "Entergy Mississippi, LLC",
+      "filing": "Entergy Mississippi, LLC submits FERC Form 3-Q Electric for 2026/Q1.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Entergy Mississippi",
+        "transmission",
+        "utility planning",
+        "large load"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "is_new": false,
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260528-8043"
+    },
+    {
+      "filed_date": "2026-05-28",
+      "accession": "20260528-5276",
+      "docket": "",
+      "filer": "Columbia Gulf Transmission",
+      "filing": "Form 567 annual report for year ending 2025.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "natural gas pipeline",
+        "pipeline infrastructure",
+        "Form 567",
+        "Columbia Gulf"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "is_new": false,
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260528-5276"
+    },
+    {
+      "filed_date": "2026-05-28",
+      "accession": "20260528-5218",
+      "docket": "",
+      "filer": "Enable Mississippi River Transmission, LLC",
+      "filing": "CEII Form 567 annual report of system flow diagrams and capacity for year ending 2025.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Enable Mississippi River Transmission",
+        "natural gas pipeline",
+        "pipeline infrastructure",
+        "CEII",
+        "Form 567"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "is_new": false,
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260528-5218"
+    },
+    {
+      "filed_date": "2026-05-28",
+      "accession": "20260528-5217",
+      "docket": "",
+      "filer": "Enable Mississippi River Transmission, LLC",
+      "filing": "Public Form 567 annual report of system flow diagrams and capacity for year ending 2025.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Enable Mississippi River Transmission",
+        "natural gas pipeline",
+        "pipeline infrastructure",
+        "Form 567"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "is_new": false,
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260528-5217"
+    },
+    {
+      "filed_date": "2026-05-28",
+      "accession": "20260528-5125",
+      "docket": "",
+      "filer": "Midcontinent Express Pipeline LLC",
+      "filing": "Privileged Form 567 annual report for year ending 2025.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Midcontinent Express Pipeline",
+        "natural gas pipeline",
+        "pipeline infrastructure",
+        "Form 567"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "is_new": false,
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260528-5125"
+    },
+    {
+      "filed_date": "2026-05-28",
+      "accession": "20260528-5115",
+      "docket": "",
+      "filer": "Southern Natural Gas Company",
+      "filing": "CEII Form 567 annual report for year ending 2025.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Southern Natural Gas",
+        "natural gas pipeline",
+        "pipeline infrastructure",
+        "CEII",
+        "Form 567"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "is_new": false,
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260528-5115"
+    },
+    {
+      "filed_date": "2026-05-28",
+      "accession": "20260528-5013",
+      "docket": "CP25-517-000",
+      "filer": "Southern Natural Gas Company, L.L.C. et al.",
+      "filing": "SSE4 ALGA Spring Plants Survey Report and USFWS Biological Assessment.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "SSE4",
+        "natural gas pipeline",
+        "USFWS",
+        "biological assessment",
+        "environmental review"
+      ],
+      "deadline": "2026-05-22",
+      "deadline_type": "Known applicant response deadline around 2026-05-22, preserved unless later official filing changes it",
+      "is_new": false,
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260528-5013"
+    },
+    {
+      "filed_date": "2026-05-28",
+      "accession": "20260528-5012",
+      "docket": "CP25-517-000",
+      "filer": "Southern Natural Gas Company, L.L.C. et al.",
+      "filing": "SSE4 EIR responses dated May 26, 2026, including facilities and permit table materials.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "SSE4",
+        "natural gas pipeline",
+        "environmental review",
+        "data-request response"
+      ],
+      "deadline": "2026-05-22",
+      "deadline_type": "Known applicant response deadline around 2026-05-22, preserved unless later official filing changes it",
+      "is_new": false,
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260528-5012"
+    },
+    {
+      "filed_date": "2026-05-28",
+      "accession": "20260528-3028",
+      "docket": "CP25-219-000",
+      "filer": "Federal Energy Regulatory Commission",
+      "filing": "Order/letter granting notice to proceed to Gulf South Pipeline Company.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Gulf South Pipeline",
+        "natural gas pipeline",
+        "delegated order",
+        "notice to proceed"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "is_new": false,
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260528-3028"
+    },
+    {
+      "filed_date": "2026-05-27",
+      "accession": "20260527-5299",
+      "docket": "CP25-517-000",
+      "filer": "Southern Natural Gas Company, L.L.C. et al.",
+      "filing": "Response to FERC May 15, 2026 data request for SSE4.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "SSE4",
+        "natural gas pipeline",
+        "data-request response",
+        "environmental review"
+      ],
+      "deadline": "2026-05-22",
+      "deadline_type": "Known applicant response deadline around 2026-05-22, preserved unless later official filing changes it",
+      "is_new": false,
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260527-5299"
+    },
+    {
+      "filed_date": "2026-05-27",
+      "accession": "20260527-5291",
+      "docket": "",
+      "filer": "Tennessee Gas Pipeline Company, L.L.C.",
+      "filing": "CEII Form 567 annual report for year ending 2025.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Tennessee Gas Pipeline",
+        "natural gas pipeline",
+        "pipeline infrastructure",
+        "CEII",
+        "Form 567"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "is_new": false,
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260527-5291"
+    },
+    {
+      "filed_date": "2026-05-27",
+      "accession": "20260527-5212",
+      "docket": "AC26-74-000",
+      "filer": "Mississippi Canyon Gas Pipeline, LLC",
+      "filing": "Request for 30-day extension of time to file FERC Form 3 for Q1 2026.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Mississippi Canyon Gas Pipeline",
+        "natural gas pipeline",
+        "extension request"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "is_new": false,
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260527-5212"
+    },
+    {
       "is_new": false,
       "filed_date": "2026-05-27",
       "accession": "20260527-5004",
@@ -678,6 +726,46 @@ window.FERC_DATA = {
       "deadline": null,
       "deadline_type": "",
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260526-8009"
+    },
+    {
+      "filed_date": "2026-05-26",
+      "accession": "20260526-5265",
+      "docket": "QF20-741-007",
+      "filer": "Moonshot Solar, LLC",
+      "filing": "Form 556 qualifying facility application update.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "solar",
+        "solar generation",
+        "photovoltaic",
+        "QF"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "is_new": false,
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260526-5265"
+    },
+    {
+      "filed_date": "2026-05-26",
+      "accession": "20260526-5264",
+      "docket": "QF20-740-006",
+      "filer": "Cane Creek Solar, LLC",
+      "filing": "Form 556 qualifying facility application update.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "solar",
+        "solar generation",
+        "photovoltaic",
+        "QF"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "is_new": false,
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260526-5264"
     },
     {
       "is_new": false,
