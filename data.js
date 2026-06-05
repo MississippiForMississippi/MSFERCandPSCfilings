@@ -1,10 +1,139 @@
 window.FERC_DATA = {
-  "last_checked": "2026-06-03T07:29:00-05:00",
+  "last_checked": "2026-06-05T07:23:00-05:00",
   "check_status": "ok",
-  "since_last_check": 4,
+  "since_last_check": 6,
   "rows": [
     {
       "is_new": true,
+      "filed_date": "2026-06-05",
+      "accession": "20260605-3000",
+      "docket": "CP25-514-000",
+      "filer": "Federal Energy Regulatory Commission, Office of Energy Market Regulation",
+      "filing": "Data-request letter for the Mississippi Crossing Project.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Mississippi Crossing",
+        "natural gas pipeline",
+        "data-request letter",
+        "FERC correspondence",
+        "environmental review"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260605-3000"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-04",
+      "accession": "20260604-5150",
+      "docket": "",
+      "filer": "Midcontinent Express Pipeline LLC",
+      "filing": "2026 MEP FERC Form 567 annual information filing.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Midcontinent Express Pipeline",
+        "natural gas pipeline",
+        "pipeline infrastructure",
+        "Form 567",
+        "CEII"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260604-5150"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-04",
+      "accession": "20260604-5077",
+      "docket": "ER26-2732-000",
+      "filer": "Alabama Power Company; Georgia Power Company; Mississippi Power Company",
+      "filing": "Dahlia Solar LGIA Termination.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Mississippi Power",
+        "solar",
+        "solar generation",
+        "LGIA termination",
+        "interconnection",
+        "generator interconnection"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260604-5077"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-04",
+      "accession": "20260604-5076",
+      "docket": "ER26-2731-000",
+      "filer": "Alabama Power Company; Mississippi Power Company; Georgia Power Company",
+      "filing": "Marble Solar Energy / Monroe Solar LGIA Termination.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Mississippi Power",
+        "solar",
+        "solar generation",
+        "LGIA termination",
+        "interconnection",
+        "generator interconnection"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260604-5076"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-04",
+      "accession": "20260604-5075",
+      "docket": "ER26-2730-000",
+      "filer": "Alabama Power Company; Georgia Power Company; Mississippi Power Company",
+      "filing": "Paisley Solar Energy / Washington Solar LGIA Termination.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Mississippi Power",
+        "solar",
+        "solar generation",
+        "LGIA termination",
+        "interconnection",
+        "generator interconnection"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260604-5075"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-03",
+      "accession": "20260603-5151",
+      "docket": "CP25-547-000 / CP25-549-000",
+      "filer": "Gulf South Pipeline Company, LLC; Texas Gas Transmission, LLC",
+      "filing": "Response to FERC’s May 27, 2026 data request for the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Attala"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "natural gas pipeline",
+        "data-request response",
+        "environmental review",
+        "FERC correspondence"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260603-5151"
+    },
+    {
+      "is_new": false,
       "filed_date": "2026-06-03",
       "accession": "20260603-5008",
       "docket": "",
@@ -27,7 +156,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260603-5008"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-02",
       "accession": "20260602-5029",
       "docket": "CP25-547-000 / CP25-549-000",
@@ -49,7 +178,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260602-5029"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-02",
       "accession": "20260602-5021",
       "docket": "",
@@ -71,7 +200,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260602-5021"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-02",
       "accession": "20260602-5020",
       "docket": "",
