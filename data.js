@@ -1,10 +1,575 @@
 window.FERC_DATA = {
-  "last_checked": "2026-06-05T07:23:00-05:00",
+  "last_checked": "2026-06-10T07:10:00-05:00",
   "check_status": "ok",
-  "since_last_check": 6,
+  "since_last_check": 29,
   "rows": [
     {
       "is_new": true,
+      "filed_date": "2026-06-09",
+      "accession": "20260609-5098",
+      "docket": "CP25-514-000 / CP25-517-000",
+      "filer": "Alabama Rivers Alliance et al.",
+      "filing": "Joint Motion to Lodge and Comments regarding IEEFA’s June 5 filing for the Mississippi Crossing Project and South System Expansion 4.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Mississippi Crossing",
+        "SSE4",
+        "South System Expansion 4",
+        "natural gas pipeline",
+        "comments",
+        "motion to lodge",
+        "intervention"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260609-5098"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-09",
+      "accession": "20260609-0002",
+      "docket": "CP25-514-000",
+      "filer": "Dr. Manfred Polk",
+      "filing": "Comments regarding Tennessee Gas Pipeline Company’s Mississippi Crossing Pipeline Project.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Mississippi Crossing",
+        "Tennessee Gas Pipeline",
+        "natural gas pipeline",
+        "public comments"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260609-0002"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-08",
+      "accession": "20260608-5170",
+      "docket": "CP25-517-000",
+      "filer": "Southern Natural Gas Company, L.L.C. et al.",
+      "filing": "Response to FERC’s June 2 data request for the South System Expansion 4 Project.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "SSE4",
+        "South System Expansion 4",
+        "natural gas pipeline",
+        "data-request response",
+        "environmental review"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-5170"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-08",
+      "accession": "20260608-5030",
+      "docket": "RM26-4-000",
+      "filer": "Heron Power Electronics Company",
+      "filing": "Comments regarding interconnection of large loads to the interstate transmission system in RM26-4.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "RM26-4",
+        "large load",
+        "data centers",
+        "AI infrastructure",
+        "interconnection",
+        "transmission"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-5030"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-08",
+      "accession": "20260608-5026",
+      "docket": "RM26-4-000",
+      "filer": "Maven Solutions",
+      "filing": "Responsive comments to FirstEnergy’s supplemental comments proposing a natural-gas-pipeline-style expansion rate for electric transmission upgrades in RM26-4.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "RM26-4",
+        "large load",
+        "transmission upgrades",
+        "interconnection",
+        "load growth"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-5026"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-08",
+      "accession": "20260608-5025",
+      "docket": "RM26-4-000",
+      "filer": "Maven Solutions",
+      "filing": "Responsive comments to Constellation’s supplemental comments proposing Load-Contingent New Capacity at Existing Plants Service in RM26-4.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "RM26-4",
+        "large load",
+        "load-contingent capacity",
+        "data centers",
+        "load growth"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-5025"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-08",
+      "accession": "20260608-5011",
+      "docket": "CP25-517-000",
+      "filer": "Southern Natural Gas Company, L.L.C.",
+      "filing": "CEII monthly agency update component following the April 23 response to FERC’s environmental information request for the South System Expansion 4 Project.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "SSE4",
+        "South System Expansion 4",
+        "natural gas pipeline",
+        "agency correspondence",
+        "CEII",
+        "environmental review"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-5011"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-08",
+      "accession": "20260608-5010",
+      "docket": "CP25-517-000",
+      "filer": "Southern Natural Gas Company, L.L.C.",
+      "filing": "Privileged monthly agency update component and supporting appendices for the South System Expansion 4 Project.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "SSE4",
+        "South System Expansion 4",
+        "natural gas pipeline",
+        "privileged component",
+        "agency update",
+        "environmental review"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-5010"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-08",
+      "accession": "20260608-5009",
+      "docket": "CP25-517-000",
+      "filer": "Southern Natural Gas Company, L.L.C.",
+      "filing": "Public monthly agency update and supporting appendices for the South System Expansion 4 Project.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "SSE4",
+        "South System Expansion 4",
+        "natural gas pipeline",
+        "agency update",
+        "environmental review",
+        "public component"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-5009"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-08",
+      "accession": "20260608-5002",
+      "docket": "CP25-514-000 / CP25-517-000",
+      "filer": "Institute for Energy Economics and Financial Analysis",
+      "filing": "Comments regarding the Mississippi Crossing Project and South System Expansion 4 Project.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Mississippi Crossing",
+        "SSE4",
+        "South System Expansion 4",
+        "natural gas pipeline",
+        "comments",
+        "public interest"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-5002"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-08",
+      "accession": "20260608-3015",
+      "docket": "CP26-127-000",
+      "filer": "Federal Energy Regulatory Commission",
+      "filing": "Environmental information request letter requiring Gulf South Pipeline Company to respond regarding the Petal Cavern Expansion Project.",
+      "counties": [
+        "Forrest"
+      ],
+      "keywords": [
+        "Petal Cavern Expansion",
+        "Gulf South Pipeline",
+        "natural gas storage",
+        "environmental information request",
+        "Mississippi infrastructure"
+      ],
+      "deadline": "2026-06-28",
+      "deadline_type": "Applicant response deadline",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-3015"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-08",
+      "accession": "20260608-0008",
+      "docket": "CP25-547-000",
+      "filer": "Glenn Cobb",
+      "filing": "Public comment urging FERC to deny a Certificate of Public Convenience and Necessity for the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Attala"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "natural gas pipeline",
+        "certificate application",
+        "public comments"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-0008"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-08",
+      "accession": "20260608-0007",
+      "docket": "CP25-547-000",
+      "filer": "William D. Egland",
+      "filing": "Public comment urging FERC to deny a Certificate of Public Convenience and Necessity for the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Attala"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "natural gas pipeline",
+        "certificate application",
+        "public comments"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-0007"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-08",
+      "accession": "20260608-0006",
+      "docket": "CP25-547-000",
+      "filer": "Carl Musgrove",
+      "filing": "Public comment urging FERC to deny a Certificate of Public Convenience and Necessity for the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Attala"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "natural gas pipeline",
+        "certificate application",
+        "public comments"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-0006"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-08",
+      "accession": "20260608-0005",
+      "docket": "CP25-547-000",
+      "filer": "Ella Holmes-Hines",
+      "filing": "Public comment urging FERC to deny a Certificate of Public Convenience and Necessity for the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Attala"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "natural gas pipeline",
+        "certificate application",
+        "public comments"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-0005"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-08",
+      "accession": "20260608-0004",
+      "docket": "CP25-547-000",
+      "filer": "Emily Gaddis",
+      "filing": "Public comment urging FERC to deny a Certificate of Public Convenience and Necessity for the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Attala"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "natural gas pipeline",
+        "certificate application",
+        "public comments"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-0004"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-08",
+      "accession": "20260608-0003",
+      "docket": "CP25-547-000",
+      "filer": "Ethel B. Caldwell",
+      "filing": "Public comment urging FERC to deny a Certificate of Public Convenience and Necessity for the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Attala"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "natural gas pipeline",
+        "certificate application",
+        "public comments"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-0003"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-08",
+      "accession": "20260608-0002",
+      "docket": "CP25-547-000",
+      "filer": "Florita Keller",
+      "filing": "Public comment urging FERC to deny a Certificate of Public Convenience and Necessity for the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Attala"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "natural gas pipeline",
+        "certificate application",
+        "public comments"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-0002"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-08",
+      "accession": "20260608-0001",
+      "docket": "CP25-547-000",
+      "filer": "Nancy Pattow Evans",
+      "filing": "Public comment urging FERC to deny the Certificate of Public Convenience and Necessity for the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Attala"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "natural gas pipeline",
+        "certificate application",
+        "public comments"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-0001"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-05",
+      "accession": "20260605-5169",
+      "docket": "RM26-4-000",
+      "filer": "FirstEnergy Service Company",
+      "filing": "Supplemental comments on FERC’s Advanced Notice of Proposed Rulemaking regarding Large Load Interconnection in RM26-4.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "RM26-4",
+        "large load",
+        "large-load interconnection",
+        "transmission",
+        "load growth"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260605-5169"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-05",
+      "accession": "20260605-5154",
+      "docket": "CP25-514-000",
+      "filer": "Tennessee Gas Pipeline Company, L.L.C.",
+      "filing": "June 2026 monthly update on consultations and agency correspondence for the Mississippi Crossing Project.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Mississippi Crossing",
+        "Tennessee Gas Pipeline",
+        "natural gas pipeline",
+        "agency update",
+        "environmental information request"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260605-5154"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-05",
+      "accession": "20260605-5153",
+      "docket": "CP25-514-000",
+      "filer": "Tennessee Gas Pipeline Company, L.L.C.",
+      "filing": "Weekly State Historic Preservation Offices Update No. 5 for the Mississippi Crossing Project.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Mississippi Crossing",
+        "Tennessee Gas Pipeline",
+        "SHPO",
+        "cultural resources",
+        "environmental review"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260605-5153"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-05",
+      "accession": "20260605-5137",
+      "docket": "CP25-547-000 / CP25-549-000",
+      "filer": "Gulf South Pipeline Company, LLC; Texas Gas Transmission, LLC",
+      "filing": "Weekly status report responding to FERC’s April 23 environmental information request for the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Attala"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "Gulf South Pipeline",
+        "Texas Gas Transmission",
+        "natural gas pipeline",
+        "weekly status report",
+        "environmental review"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260605-5137"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-05",
+      "accession": "20260605-5050",
+      "docket": "RM26-4-000",
+      "filer": "Constellation Energy Generation, LLC",
+      "filing": "Supplemental comments on FERC’s proposed Advanced Notice of Proposed Rulemaking regarding Large Load Interconnection in RM26-4.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "RM26-4",
+        "large load",
+        "large-load interconnection",
+        "generation capacity",
+        "load growth"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260605-5050"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-05",
+      "accession": "20260605-3054",
+      "docket": "CP25-514-000 / CP25-517-000",
+      "filer": "Federal Energy Regulatory Commission",
+      "filing": "Order on objection to disclosure of privileged materials and denial of request for extension of comment period for the Mississippi Crossing Project and South System Expansion 4.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Mississippi Crossing",
+        "SSE4",
+        "privileged materials",
+        "comment period",
+        "FERC order"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260605-3054"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-05",
+      "accession": "20260605-3028",
+      "docket": "ER26-2225-000",
+      "filer": "Federal Energy Regulatory Commission",
+      "filing": "Letter order accepting Alabama Power Company et al. notice of termination of the Large Generator Interconnection Agreement with Tri-State II Solar Project, LLC.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Mississippi Power",
+        "solar",
+        "LGIA termination",
+        "generator interconnection",
+        "letter order"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260605-3028"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-05",
+      "accession": "20260605-3021",
+      "docket": "ER26-2232-000",
+      "filer": "Federal Energy Regulatory Commission",
+      "filing": "Letter order accepting Georgia Power Company et al. notice of termination of a Certificate of Concurrence related to an Enhanced Reliability Upgrade Construction Agreement.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Mississippi Power",
+        "transmission upgrade",
+        "enhanced reliability upgrade",
+        "letter order"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260605-3021"
+    },
+    {
+      "is_new": false,
       "filed_date": "2026-06-05",
       "accession": "20260605-3000",
       "docket": "CP25-514-000",
@@ -25,7 +590,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260605-3000"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-04",
       "accession": "20260604-5150",
       "docket": "",
@@ -46,7 +611,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260604-5150"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-04",
       "accession": "20260604-5077",
       "docket": "ER26-2732-000",
@@ -68,7 +633,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260604-5077"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-04",
       "accession": "20260604-5076",
       "docket": "ER26-2731-000",
@@ -90,7 +655,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260604-5076"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-04",
       "accession": "20260604-5075",
       "docket": "ER26-2730-000",
@@ -113,6 +678,47 @@ window.FERC_DATA = {
     },
     {
       "is_new": true,
+      "filed_date": "2026-06-04",
+      "accession": "20260604-3039",
+      "docket": "P-15417-001",
+      "filer": "Federal Energy Regulatory Commission",
+      "filing": "Notice that Aberdeen Hydro AE, LLC’s Aberdeen Hydroelectric Project preliminary permit application was accepted for filing and soliciting comments, motions to intervene, and competing applications.",
+      "counties": [
+        "Monroe"
+      ],
+      "keywords": [
+        "Aberdeen Hydroelectric Project",
+        "preliminary permit",
+        "public comments",
+        "motions to intervene",
+        "resource development"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260604-3039"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-04",
+      "accession": "20260604-3031",
+      "docket": "P-15417-001",
+      "filer": "Federal Energy Regulatory Commission",
+      "filing": "Acceptance letter for Aberdeen Hydro AE, LLC’s preliminary permit application for the Aberdeen Hydroelectric Project, with distribution request to other entities.",
+      "counties": [
+        "Monroe"
+      ],
+      "keywords": [
+        "Aberdeen Hydroelectric Project",
+        "preliminary permit",
+        "resource development",
+        "FERC correspondence"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260604-3031"
+    },
+    {
+      "is_new": false,
       "filed_date": "2026-06-03",
       "accession": "20260603-5151",
       "docket": "CP25-547-000 / CP25-549-000",
