@@ -1,10 +1,172 @@
 window.FERC_DATA = {
-  "last_checked": "2026-06-10T07:10:00-05:00",
+  "last_checked": "2026-06-11T07:28:00-05:00",
   "check_status": "ok",
-  "since_last_check": 29,
+  "since_last_check": 7,
   "rows": [
     {
       "is_new": true,
+      "filed_date": "2026-06-11",
+      "accession": "PSC-2026-06-CONSENT-DOCKET",
+      "docket": "June 2026 Consent Docket / June 18, 2026 Regular Meeting",
+      "filer": "Mississippi Public Service Commission",
+      "filing": "June 2026 PSC utility consent docket for the June 18 regular meeting, listing multiple infrastructure and resource-development matters including solar CPCNs, Southern Cross Transmission, KM Mississippi Intrastate System gas pipeline, Greer and Wildwood energy storage, Mississippi Power Plant Daniel gas conversion, Alcorn County EPA substation, and Mississippi Power Jackson County transmission/right-of-way facilities.",
+      "counties": [
+        "Pontotoc",
+        "Lowndes",
+        "Holmes",
+        "Jasper",
+        "Lee",
+        "Union",
+        "Choctaw",
+        "Washington",
+        "Tallahatchie",
+        "Jackson",
+        "Alcorn",
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "PSC",
+        "consent docket",
+        "public meeting",
+        "solar",
+        "CPCN",
+        "natural gas pipeline",
+        "energy storage",
+        "transmission",
+        "substation",
+        "Mississippi Power",
+        "Entergy Mississippi",
+        "MISO",
+        "community solar"
+      ],
+      "deadline": "2026-06-18",
+      "deadline_type": "PSC regular meeting date",
+      "link": "https://www.psc.ms.gov/sites/default/files/2026-06/6-2026-CONSENT-DOCKET.pdf"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-10",
+      "accession": "20260610-5110",
+      "docket": "CP02-229-000 / CP02-230-000 / CP02-231-000",
+      "filer": "SG Resources Mississippi, L.L.C.",
+      "filing": "Privileged semi-annual natural gas storage report for the period December 1, 2025 through March 31, 2026.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "SG Resources Mississippi",
+        "natural gas storage",
+        "semi-annual storage report",
+        "privileged component"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260610-5110"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-10",
+      "accession": "20260610-5109",
+      "docket": "CP02-229-000 / CP02-230-000 / CP02-231-000",
+      "filer": "SG Resources Mississippi, L.L.C.",
+      "filing": "Public semi-annual natural gas storage report transmittal for the period December 1, 2025 through March 31, 2026.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "SG Resources Mississippi",
+        "natural gas storage",
+        "semi-annual storage report",
+        "public component"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260610-5109"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-10",
+      "accession": "20260610-5091",
+      "docket": "CP19-53-000 / CP07-406-000 / CP07-407-000 / CP07-408-000 / CP11-28-000",
+      "filer": "Monroe Gas Storage Company, LLC",
+      "filing": "Privileged semi-annual storage report for the period December 1, 2025 through March 31, 2026.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Monroe Gas Storage",
+        "natural gas storage",
+        "semi-annual storage report",
+        "privileged component"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260610-5091"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-10",
+      "accession": "20260610-5090",
+      "docket": "CP07-406-000 / CP07-407-000 / CP07-408-000 / CP11-28-000 / CP19-53-000",
+      "filer": "Monroe Gas Storage Company, LLC",
+      "filing": "Public semi-annual storage report transmittal for the period December 1, 2025 through March 31, 2026.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Monroe Gas Storage",
+        "natural gas storage",
+        "semi-annual storage report",
+        "public component"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260610-5090"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-10",
+      "accession": "20260610-5073",
+      "docket": "CP25-514-000",
+      "filer": "Tennessee Gas Pipeline Company, L.L.C.",
+      "filing": "Response to FERC’s June 5 data request for the Mississippi Crossing Project.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Mississippi Crossing",
+        "Tennessee Gas Pipeline",
+        "natural gas pipeline",
+        "data-request response",
+        "environmental review"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260610-5073"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-10",
+      "accession": "20260610-3075",
+      "docket": "ER26-263-000",
+      "filer": "Federal Energy Regulatory Commission",
+      "filing": "Order rescheduling second settlement conference in Entergy Arkansas, LLC et al. proceeding involving Entergy operating companies including Entergy Mississippi.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Entergy Mississippi",
+        "settlement conference",
+        "MISO",
+        "utility proceeding",
+        "FERC order"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260610-3075"
+    },
+    {
+      "is_new": false,
       "filed_date": "2026-06-09",
       "accession": "20260609-5098",
       "docket": "CP25-514-000 / CP25-517-000",
@@ -27,7 +189,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260609-5098"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-09",
       "accession": "20260609-0002",
       "docket": "CP25-514-000",
@@ -47,7 +209,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260609-0002"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-08",
       "accession": "20260608-5170",
       "docket": "CP25-517-000",
@@ -68,7 +230,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-5170"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-08",
       "accession": "20260608-5030",
       "docket": "RM26-4-000",
@@ -90,7 +252,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-5030"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-08",
       "accession": "20260608-5026",
       "docket": "RM26-4-000",
@@ -111,7 +273,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-5026"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-08",
       "accession": "20260608-5025",
       "docket": "RM26-4-000",
@@ -132,7 +294,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-5025"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-08",
       "accession": "20260608-5011",
       "docket": "CP25-517-000",
@@ -154,7 +316,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-5011"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-08",
       "accession": "20260608-5010",
       "docket": "CP25-517-000",
@@ -176,7 +338,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-5010"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-08",
       "accession": "20260608-5009",
       "docket": "CP25-517-000",
@@ -198,7 +360,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-5009"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-08",
       "accession": "20260608-5002",
       "docket": "CP25-514-000 / CP25-517-000",
@@ -220,7 +382,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-5002"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-08",
       "accession": "20260608-3015",
       "docket": "CP26-127-000",
@@ -241,7 +403,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-3015"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-08",
       "accession": "20260608-0008",
       "docket": "CP25-547-000",
@@ -261,7 +423,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-0008"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-08",
       "accession": "20260608-0007",
       "docket": "CP25-547-000",
@@ -281,7 +443,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-0007"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-08",
       "accession": "20260608-0006",
       "docket": "CP25-547-000",
@@ -301,7 +463,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-0006"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-08",
       "accession": "20260608-0005",
       "docket": "CP25-547-000",
@@ -321,7 +483,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-0005"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-08",
       "accession": "20260608-0004",
       "docket": "CP25-547-000",
@@ -341,7 +503,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-0004"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-08",
       "accession": "20260608-0003",
       "docket": "CP25-547-000",
@@ -361,7 +523,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-0003"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-08",
       "accession": "20260608-0002",
       "docket": "CP25-547-000",
@@ -381,7 +543,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-0002"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-08",
       "accession": "20260608-0001",
       "docket": "CP25-547-000",
@@ -401,7 +563,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260608-0001"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-05",
       "accession": "20260605-5169",
       "docket": "RM26-4-000",
@@ -422,7 +584,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260605-5169"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-05",
       "accession": "20260605-5154",
       "docket": "CP25-514-000",
@@ -443,7 +605,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260605-5154"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-05",
       "accession": "20260605-5153",
       "docket": "CP25-514-000",
@@ -464,7 +626,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260605-5153"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-05",
       "accession": "20260605-5137",
       "docket": "CP25-547-000 / CP25-549-000",
@@ -486,7 +648,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260605-5137"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-05",
       "accession": "20260605-5050",
       "docket": "RM26-4-000",
@@ -507,7 +669,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260605-5050"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-05",
       "accession": "20260605-3054",
       "docket": "CP25-514-000 / CP25-517-000",
@@ -528,7 +690,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260605-3054"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-05",
       "accession": "20260605-3028",
       "docket": "ER26-2225-000",
@@ -549,7 +711,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260605-3028"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-05",
       "accession": "20260605-3021",
       "docket": "ER26-2232-000",
@@ -677,7 +839,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260604-5075"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-04",
       "accession": "20260604-3039",
       "docket": "P-15417-001",
@@ -698,7 +860,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260604-3039"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-04",
       "accession": "20260604-3031",
       "docket": "P-15417-001",
