@@ -1,10 +1,10 @@
 window.FERC_DATA = {
-  "last_checked": "2026-06-11T07:28:00-05:00",
+  "last_checked": "2026-06-12T07:01:00-05:00",
   "check_status": "ok",
   "since_last_check": 7,
   "rows": [
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-11",
       "accession": "PSC-2026-06-CONSENT-DOCKET",
       "docket": "June 2026 Consent Docket / June 18, 2026 Regular Meeting",
@@ -45,6 +45,141 @@ window.FERC_DATA = {
     },
     {
       "is_new": true,
+      "filed_date": "2026-06-11",
+      "accession": "20260611-5058",
+      "docket": "CP26-24-000 / multiple Atmos dockets",
+      "filer": "Atmos Energy Corporation",
+      "filing": "Request to update the service list in multiple Atmos Energy proceedings including CP26-24.",
+      "counties": [
+        "Attala",
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Kosciusko Compressor Station",
+        "Atmos Energy",
+        "CP26-24",
+        "natural gas pipeline",
+        "service list update",
+        "FERC correspondence"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260611-5058"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-11",
+      "accession": "20260611-5015",
+      "docket": "RM26-4-000",
+      "filer": "Working for Advanced Transmission Technologies Coalition",
+      "filing": "Supplemental comments on FERC’s proposed Advanced Notice of Proposed Rulemaking on Large Load Interconnection.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "RM26-4",
+        "large load",
+        "large-load interconnection",
+        "transmission technology",
+        "transmission upgrades",
+        "data centers",
+        "AI infrastructure"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260611-5015"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-11",
+      "accession": "20260611-5006",
+      "docket": "RM26-4-000",
+      "filer": "Lisa Melton",
+      "filing": "Motion to intervene and protest regarding grid-reliability and capacity implications of large-load interconnection and associated energy infrastructure.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "RM26-4",
+        "large load",
+        "large-load interconnection",
+        "grid reliability",
+        "associated energy infrastructure",
+        "protest",
+        "intervention"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260611-5006"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-11",
+      "accession": "20260611-3051",
+      "docket": "CP26-127-000",
+      "filer": "Federal Energy Regulatory Commission",
+      "filing": "Letter requesting Gulf South Pipeline Company to respond to a data request for the Petal Cavern Expansion Project.",
+      "counties": [
+        "Forrest"
+      ],
+      "keywords": [
+        "Petal Cavern Expansion",
+        "Gulf South Pipeline",
+        "natural gas storage",
+        "data request",
+        "environmental review",
+        "FERC correspondence"
+      ],
+      "deadline": "2026-06-18",
+      "deadline_type": "Applicant response deadline",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260611-3051"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-10",
+      "accession": "20260610-5188",
+      "docket": "CP25-547-000 / CP25-549-000",
+      "filer": "Gulf South Pipeline Company, LLC; Texas Gas Transmission, LLC",
+      "filing": "Response to public comments on the Draft Environmental Impact Statement for the proposed Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Attala"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "Gulf South Pipeline",
+        "Texas Gas Transmission",
+        "natural gas pipeline",
+        "Draft Environmental Impact Statement",
+        "public comment response"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260610-5188"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-10",
+      "accession": "20260610-5184",
+      "docket": "CP25-517-000",
+      "filer": "Southern Natural Gas Company, L.L.C.",
+      "filing": "Response to FERC’s June 2 data request for the South System Expansion 4 Project.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "SSE4",
+        "South System Expansion 4",
+        "Southern Natural Gas",
+        "natural gas pipeline",
+        "data-request response",
+        "environmental review"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260610-5184"
+    },
+    {
+      "is_new": false,
       "filed_date": "2026-06-10",
       "accession": "20260610-5110",
       "docket": "CP02-229-000 / CP02-230-000 / CP02-231-000",
@@ -64,7 +199,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260610-5110"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-10",
       "accession": "20260610-5109",
       "docket": "CP02-229-000 / CP02-230-000 / CP02-231-000",
@@ -84,7 +219,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260610-5109"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-10",
       "accession": "20260610-5091",
       "docket": "CP19-53-000 / CP07-406-000 / CP07-407-000 / CP07-408-000 / CP11-28-000",
@@ -104,7 +239,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260610-5091"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-10",
       "accession": "20260610-5090",
       "docket": "CP07-406-000 / CP07-407-000 / CP07-408-000 / CP11-28-000 / CP19-53-000",
@@ -124,7 +259,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260610-5090"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-10",
       "accession": "20260610-5073",
       "docket": "CP25-514-000",
@@ -145,7 +280,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260610-5073"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-10",
       "accession": "20260610-3075",
       "docket": "ER26-263-000",
@@ -207,6 +342,29 @@ window.FERC_DATA = {
       "deadline": null,
       "deadline_type": "",
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260609-0002"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-09",
+      "accession": "20260609-0001",
+      "docket": "RM26-4-000",
+      "filer": "Citizen Systems Architect and Independent Researcher",
+      "filing": "Technical architecture blueprint, Project Phoenix, submitted for immediate legislative integration and municipal zoning adoption in the large-load interconnection rulemaking.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "RM26-4",
+        "large load",
+        "data centers",
+        "AI infrastructure",
+        "municipal zoning",
+        "interconnection",
+        "energy infrastructure"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260609-0001"
     },
     {
       "is_new": false,
