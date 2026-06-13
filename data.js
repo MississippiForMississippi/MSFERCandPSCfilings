@@ -1,8 +1,95 @@
 window.FERC_DATA = {
-  "last_checked": "2026-06-12T07:01:00-05:00",
+  "last_checked": "2026-06-13T07:02:00-05:00",
   "check_status": "ok",
   "since_last_check": 7,
   "rows": [
+    {
+      "is_new": true,
+      "filed_date": "2026-06-12",
+      "accession": "20260612-5160",
+      "docket": "CP25-514-000",
+      "filer": "Tennessee Gas Pipeline Company, L.L.C.",
+      "filing": "Weekly State Historic Preservation Offices Update No. 6 for the Mississippi Crossing Project.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Mississippi Crossing",
+        "Tennessee Gas Pipeline",
+        "SHPO",
+        "cultural resources",
+        "natural gas pipeline",
+        "environmental review"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260612-5160"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-12",
+      "accession": "20260612-5137",
+      "docket": "CP25-547-000 / CP25-549-000",
+      "filer": "Gulf South Pipeline Company, LLC; Texas Gas Transmission, LLC",
+      "filing": "Weekly status report responding to FERC’s April 23 environmental information request for the Kosciusko Junction Pipeline Project.",
+      "counties": [
+        "Attala"
+      ],
+      "keywords": [
+        "Kosciusko Junction",
+        "Gulf South Pipeline",
+        "Texas Gas Transmission",
+        "natural gas pipeline",
+        "weekly status report",
+        "environmental review"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260612-5137"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-12",
+      "accession": "20260612-3042",
+      "docket": "CP26-525-000",
+      "filer": "Federal Energy Regulatory Commission",
+      "filing": "Letter requesting Monroe Gas Storage Company, LLC to respond to an environmental information request for the Wheeling Gas Optimization Project.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Monroe Gas Storage",
+        "Wheeling Gas Optimization Project",
+        "natural gas storage",
+        "environmental information request",
+        "FERC correspondence"
+      ],
+      "deadline": "2026-06-19",
+      "deadline_type": "Applicant response deadline",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260612-3042"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-12",
+      "accession": "20260612-3016",
+      "docket": "CP26-127-000",
+      "filer": "Federal Energy Regulatory Commission",
+      "filing": "Notice of schedule for preparation of an Environmental Assessment for Gulf South Pipeline Company’s Petal Cavern Expansion Project.",
+      "counties": [
+        "Forrest"
+      ],
+      "keywords": [
+        "Petal Cavern Expansion",
+        "Gulf South Pipeline",
+        "natural gas storage",
+        "Environmental Assessment",
+        "notice of schedule",
+        "environmental review"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260612-3016"
+    },
     {
       "is_new": false,
       "filed_date": "2026-06-11",
@@ -46,6 +133,79 @@ window.FERC_DATA = {
     {
       "is_new": true,
       "filed_date": "2026-06-11",
+      "accession": "20260611-5156",
+      "docket": "RM26-4-000",
+      "filer": "Maryland Office of People’s Counsel",
+      "filing": "Motion to lodge complaint in the large-load interconnection rulemaking docket.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "RM26-4",
+        "large load",
+        "large-load interconnection",
+        "data centers",
+        "transmission",
+        "grid reliability",
+        "motion to lodge"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260611-5156"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-11",
+      "accession": "20260611-5126",
+      "docket": "CP25-517-000",
+      "filer": "Southern Natural Gas Company, L.L.C.",
+      "filing": "Privileged or protected supplemental information to the certificate application for the South System Expansion 4 Project, including USFWS biological assessment materials.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "SSE4",
+        "South System Expansion 4",
+        "Southern Natural Gas",
+        "natural gas pipeline",
+        "certificate application",
+        "USFWS",
+        "biological assessment",
+        "supplemental information",
+        "privileged component"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260611-5126"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-11",
+      "accession": "20260611-5125",
+      "docket": "CP25-517-000",
+      "filer": "Southern Natural Gas Company, L.L.C.",
+      "filing": "Public supplemental information to the certificate application for the South System Expansion 4 Project, including redacted USFWS biological assessment materials.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "SSE4",
+        "South System Expansion 4",
+        "Southern Natural Gas",
+        "natural gas pipeline",
+        "certificate application",
+        "USFWS",
+        "biological assessment",
+        "supplemental information",
+        "public component"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260611-5125"
+    },
+    {
+      "is_new": false,
+      "filed_date": "2026-06-11",
       "accession": "20260611-5058",
       "docket": "CP26-24-000 / multiple Atmos dockets",
       "filer": "Atmos Energy Corporation",
@@ -67,7 +227,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260611-5058"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-11",
       "accession": "20260611-5015",
       "docket": "RM26-4-000",
@@ -90,7 +250,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260611-5015"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-11",
       "accession": "20260611-5006",
       "docket": "RM26-4-000",
@@ -113,7 +273,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260611-5006"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-11",
       "accession": "20260611-3051",
       "docket": "CP26-127-000",
@@ -135,7 +295,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260611-3051"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-10",
       "accession": "20260610-5188",
       "docket": "CP25-547-000 / CP25-549-000",
@@ -157,7 +317,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260610-5188"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-10",
       "accession": "20260610-5184",
       "docket": "CP25-517-000",
@@ -344,7 +504,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260609-0002"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-09",
       "accession": "20260609-0001",
       "docket": "RM26-4-000",
