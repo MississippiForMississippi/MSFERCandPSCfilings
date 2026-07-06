@@ -1,10 +1,80 @@
 window.FERC_DATA = {
-  "last_checked": "2026-06-13T07:02:00-05:00",
+  "last_checked": "2026-06-14T10:17:00-05:00",
   "check_status": "ok",
-  "since_last_check": 7,
+  "since_last_check": 3,
   "rows": [
     {
       "is_new": true,
+      "filed_date": "2026-06-14",
+      "accession": "PSC-2026-07-CONSENT-DOCKET",
+      "docket": "July 2026 Consent Docket / July 7, 2026 Regular Meeting",
+      "filer": "Mississippi Public Service Commission",
+      "filing": "PSC July 2026 consent docket lists multiple utility infrastructure and resource-development matters including Southern Cross Transmission, community solar, Fiddle Falls/Lowndes/Sabre/Shubuta Creek/CPV Jugfork/Trifecta Red Hills solar CPCNs, KM Mississippi Intrastate System gas pipeline, Greer and Wildwood energy storage, Mississippi Power Plant Daniel gas conversion, Alcorn substation, Mississippi Power Jackson County transmission/right-of-way facilities, Atmos Custer Road steel main replacement, and Delta Mississippi Gas/Spire acquisition.",
+      "counties": [
+        "Pontotoc",
+        "Lowndes",
+        "Holmes",
+        "Jasper",
+        "Lee",
+        "Union",
+        "Choctaw",
+        "Washington",
+        "Tallahatchie",
+        "Jackson",
+        "Alcorn",
+        "DeSoto",
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "PSC",
+        "consent docket",
+        "solar",
+        "CPCN",
+        "Southern Cross Transmission",
+        "natural gas pipeline",
+        "energy storage",
+        "transmission",
+        "substation",
+        "Mississippi Power",
+        "Entergy Mississippi",
+        "Atmos",
+        "Delta Mississippi Gas",
+        "Spire"
+      ],
+      "deadline": "2026-07-07",
+      "deadline_type": "PSC regular meeting date",
+      "link": "https://www.psc.ms.gov/sites/default/files/2026-07/7-2026-CONSENT-DOCKET.pdf"
+    },
+    {
+      "is_new": true,
+      "filed_date": "2026-06-14",
+      "accession": "PSC-2026-07-07-AGENDA",
+      "docket": "July 7, 2026 Open Meeting Agenda",
+      "filer": "Mississippi Public Service Commission",
+      "filing": "PSC July 7 open meeting agenda includes proposed orders for Mississippi Power Plant Daniel Unit 2 natural-gas conversion in Jackson County, Alcorn County EPA substation facility, Entergy Mississippi and Mississippi Power fuel audits, and multiple water/sewer certificate and rate matters.",
+      "counties": [
+        "Jackson",
+        "Alcorn",
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "PSC",
+        "meeting agenda",
+        "Mississippi Power",
+        "Plant Daniel",
+        "natural gas conversion",
+        "substation",
+        "Alcorn County EPA",
+        "Entergy Mississippi",
+        "fuel audits",
+        "CPCN"
+      ],
+      "deadline": "2026-07-07",
+      "deadline_type": "PSC open meeting date",
+      "link": "https://www.psc.ms.gov/sites/default/files/2026-07/7-7-26-Agenda.pdf"
+    },
+    {
+      "is_new": false,
       "filed_date": "2026-06-12",
       "accession": "20260612-5160",
       "docket": "CP25-514-000",
@@ -26,7 +96,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260612-5160"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-12",
       "accession": "20260612-5137",
       "docket": "CP25-547-000 / CP25-549-000",
@@ -50,6 +120,28 @@ window.FERC_DATA = {
     {
       "is_new": true,
       "filed_date": "2026-06-12",
+      "accession": "20260612-3066",
+      "docket": "ER26-2224-000",
+      "filer": "Federal Energy Regulatory Commission",
+      "filing": "Letter order accepting Southern Company Services, Inc. et al. notice of termination of a Large Generator Interconnection Agreement involving Southern Company operating companies including Mississippi Power.",
+      "counties": [
+        "Mississippi statewide"
+      ],
+      "keywords": [
+        "Mississippi Power",
+        "Southern Company Services",
+        "LGIA termination",
+        "generator interconnection",
+        "solar",
+        "letter order"
+      ],
+      "deadline": null,
+      "deadline_type": "",
+      "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260612-3066"
+    },
+    {
+      "is_new": false,
+      "filed_date": "2026-06-12",
       "accession": "20260612-3042",
       "docket": "CP26-525-000",
       "filer": "Federal Energy Regulatory Commission",
@@ -69,7 +161,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260612-3042"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-12",
       "accession": "20260612-3016",
       "docket": "CP26-127-000",
@@ -131,7 +223,7 @@ window.FERC_DATA = {
       "link": "https://www.psc.ms.gov/sites/default/files/2026-06/6-2026-CONSENT-DOCKET.pdf"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-11",
       "accession": "20260611-5156",
       "docket": "RM26-4-000",
@@ -154,7 +246,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260611-5156"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-11",
       "accession": "20260611-5126",
       "docket": "CP25-517-000",
@@ -179,7 +271,7 @@ window.FERC_DATA = {
       "link": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260611-5126"
     },
     {
-      "is_new": true,
+      "is_new": false,
       "filed_date": "2026-06-11",
       "accession": "20260611-5125",
       "docket": "CP25-517-000",
